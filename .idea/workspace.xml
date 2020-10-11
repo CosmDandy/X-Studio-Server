@@ -22,8 +22,13 @@
     <list default="true" id="a5b66042-bc8c-4fe6-91e4-2b2cfabb1245" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <change beforePath="$PROJECT_DIR$/Files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Files/script.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Files/script.js" afterDir="false" />
+=======
+>>>>>>> Server
 >>>>>>> Server
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +41,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Files/style.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
 =======
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Files/style.css" root0="SKIP_INSPECTION" />
+=======
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Files/style.css" root0="SKIP_INSPECTION" />
+=======
+    <setting file="file://$PROJECT_DIR$/Files/style.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+>>>>>>> Server
 >>>>>>> Server
   </component>
   <component name="ProjectId" id="1ijQMA0NMIjEs08cJ8ABS37v1tF" />
@@ -57,13 +70,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+=======
+>>>>>>> Server
 <<<<<<< Updated upstream
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
 =======
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+=======
+>>>>>>> Server
 >>>>>>> Server
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -78,14 +99,24 @@
 <<<<<<< Updated upstream
       <workItem from="1602418475629" duration="637000" />
 <<<<<<< HEAD
-=======
-      <workItem from="1602418475629" duration="458000" />
-      <workItem from="1602420928649" duration="21000" />
->>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
       <workItem from="1602420650286" duration="176000" />
       <workItem from="1602420847240" duration="127000" />
       <workItem from="1602420990186" duration="501000" />
+=======
+>>>>>>> Server
+=======
+      <workItem from="1602418475629" duration="458000" />
+      <workItem from="1602420928649" duration="21000" />
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+=======
+      <workItem from="1602420650286" duration="176000" />
+      <workItem from="1602420847240" duration="127000" />
+      <workItem from="1602420990186" duration="501000" />
+=======
+>>>>>>> Server
 >>>>>>> Server
     </task>
     <servers />
@@ -114,6 +145,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1602421167395" />
+=======
+>>>>>>> Server
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1602420633360" />
 =======
   <component name="WindowStateProjectService">
@@ -122,8 +158,11 @@
     </state>
     <state x="781" y="359" key="SettingsEditor/-1024.315.1024.1280/0.0.2560.1440@0.0.2560.1440" timestamp="1602420949398" />
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 =======
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1602421167395" />
+=======
+>>>>>>> Server
 >>>>>>> Server
   </component>
 </project>
