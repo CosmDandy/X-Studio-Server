@@ -269,7 +269,7 @@ div.submenu:hover a {
 }
 
 .developers-says {
-    padding-top: 90px;
+    padding: 90px 0 0;
 }
 
 .developers-says-h3 {
@@ -293,7 +293,6 @@ div.submenu:hover a {
 
 .developers-says-text-blocks {
     width: 305px;
-    padding: 0 10px;
 }
 
 .developers-says-text-blocks p {
@@ -321,14 +320,19 @@ div.submenu:hover a {
     padding-bottom: 15px;
 }
 
-.about-us-header-h2 {
+div.about-us-header-h2 {
     padding-top: 15px;
 }
 
 .about-us-header h2 {
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    width: fit-content;
+    background-image: linear-gradient(150deg, rgb(251, 32, 70), rgb(5, 193, 253));
+
     display: block;
     opacity: 1;
-    color: white;
     font-size: 45px;
     letter-spacing: -1px;
     line-height: 50px;
@@ -501,9 +505,15 @@ div.submenu:hover a {
 }
 
 .equipment-header h2 {
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    width: fit-content;
+    background-image: linear-gradient(150deg, rgb(251, 32, 70), rgb(5, 193, 253));
+
+
     display: block;
     opacity: 1;
-    color: white;
     font-size: 45px;
     letter-spacing: -1px;
     line-height: 50px;
@@ -514,7 +524,7 @@ div.submenu:hover a {
 
 .equipment-block {
     display: flex;
-    padding-bottom: 70px;
+    padding: 0 15px 70px;
     width: 100%;
 }
 
@@ -621,12 +631,6 @@ div.submenu:hover a {
 .footer-main-lang {
 
 }
-
-
-
-
-
-
 
 
 /*
