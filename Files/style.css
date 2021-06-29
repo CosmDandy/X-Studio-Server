@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
     height: 5000px;
@@ -10,6 +11,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        width: 110%;
+    }
 }
 
 ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, button {
@@ -230,7 +237,7 @@ div.submenu:hover a {
 
 .our-history-main-numbers {
     display: flex;
-    padding-top: 55px;
+    padding: 50px 0 70px 0;
 }
 
 .our-history-main-numbers-1 {
@@ -343,7 +350,7 @@ div.about-us-header-h2 {
 
 .about-us-main {
     display: flex;
-    padding: 50px 15px 0;
+    padding: 50px 0 0;
 }
 
 .about-us-main-intro {
@@ -442,13 +449,22 @@ div.about-us-header-h2 {
     line-height: 50px;
 }
 
-.work-main-text {
+.work-main-text-1 {
+    width: 1000px;
+    display: grid;
+    margin-left: -16px;
+    margin-right: -16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.work-main-text-2 {
     width: 1000px;
     display: grid;
     margin-left: -16px;
     margin-right: -16px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .work-main-text-blocks {
@@ -460,6 +476,10 @@ div.about-us-header-h2 {
     background-color: #707070;
     box-shadow: 0 0 10px 0 rgba(105, 105, 105, 0.5);
 
+}
+
+.text-img {
+    height: 300px;
 }
 
 .work-main-intro-h5 {
@@ -531,8 +551,11 @@ div.about-us-header-h2 {
 #equipment-block-img1 {
     width: 560px;
     height: 325px;
-    background-color: #ffffff;
-    margin-left: 70px;
+    margin-left: 50px;
+}
+
+#equipment-block-img1 img {
+    width: 110%;
 }
 
 #equipment-block-img2 {
@@ -545,8 +568,11 @@ div.about-us-header-h2 {
 #equipment-block-img3 {
     width: 560px;
     height: 630px;
-    background-color: #ffffff;
-    margin-left: 84px;
+    margin-left: 80px;
+}
+
+#equipment-block-img3 img {
+    width: 110%;
 }
 
 .equipment-block-text {
