@@ -187,8 +187,9 @@ div.submenu:hover a {
 
 .our-history {
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     background-color: #2d2d2d;
+    position: relative;
 }
 
 .our-history-main {
@@ -233,7 +234,7 @@ div.submenu:hover a {
 
 .our-history-main-numbers {
     display: flex;
-    padding: 50px 0 70px 0;
+    padding: 50px 0 100px 0;
 }
 
 .our-history-main-numbers-1 {
@@ -271,40 +272,25 @@ div.submenu:hover a {
     text-decoration: none;
 }
 
-.developers-says {
-    padding: 90px 0 0;
-}
-
-.developers-says-h3 {
-    padding-bottom: 15px;
-}
-
-.developers-says-h3 h3 {
-    display: block;
-    opacity: 1;
-    color: white;
-    font-size: 25px;
-    font-family: 'Gotham Bold', serif;
-    text-decoration: none;
-}
-
-.developers-says-text {
+.box-main {
+    background-color: #9b9b9b;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 15px;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    width: 94%;
+    left: 0;
+    right: 0;
+
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
 }
 
-.developers-says-text-blocks {
-    width: 305px;
-}
-
-.developers-says-text-blocks p {
-    display: block;
-    opacity: 1;
-    color: white;
-    font-size: 18px;
-    font-family: 'Gotham XLight', sans-serif;
-    text-decoration: none;
+.box-main-boxes {
+    background-color: #171717;
 }
 
 /* About us */
@@ -316,7 +302,7 @@ div.submenu:hover a {
 }
 
 .about-us-header {
-    padding-top: 70px;
+    padding-top: 150px;
 }
 
 .theme {
