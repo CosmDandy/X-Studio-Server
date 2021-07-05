@@ -273,7 +273,6 @@ div.submenu:hover a {
 }
 
 .box-main {
-    background-color: #9b9b9b;
     display: grid;
     height: 300px;
     margin: 0 auto;
