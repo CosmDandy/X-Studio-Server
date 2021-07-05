@@ -5,6 +5,12 @@ $(window).scroll(function () {
         $('.header').css('padding', '5px 0');
     }
 
+    if (window.scrollY > 100) {
+        $('.intro').css('padding', '0');
+    } else if (window.scrollY < 100) {
+        $('.intro').css('padding', '5px 0');
+    }
+
 
     if (window.scrollY < (window.screen.height + (document.querySelector('.our-history').offsetHeight - 170))) {
         $('.header').css('background-color', 'rgba(52, 52, 52, 0.9)');

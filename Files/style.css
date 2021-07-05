@@ -129,6 +129,7 @@ div.submenu:hover a {
 /* X-studio / Intro */
 
 .intro {
+    background-color: rgba(45, 45, 45, 0.84);
     width: 100%;
     height: 100vh;
     min-height: 500px;
@@ -446,10 +447,12 @@ div.about-us-header-h2 {
 
 .work-main-text-1 {
     width: 100%;
-    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    margin: 32px 0;
 }
 
 .work-main-text-2 {
@@ -457,11 +460,10 @@ div.about-us-header-h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
 }
 
-.work-main-text-blocks {
-    margin: 16px;
-}
 
 .work-main-text-img {
     height: 140px;
