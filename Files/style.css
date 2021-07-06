@@ -231,45 +231,44 @@ div.submenu:hover a {
     text-decoration: none;
 }
 
-.our-history-main-numbers {
-    display: flex;
-    padding: 50px 0 100px 0;
 }
 
-.our-history-main-numbers-1 {
-    width: 230px;
+.developers-says {
+    padding: 90px 0 0;
 }
 
-.our-history-main-numbers-2 {
-    width: 200px;
-    padding-left: 200px;
+.developers-says-h3 {
+    padding-bottom: 15px;
 }
 
-.our-history-main-numbers-num {
-    padding-bottom: 5px;
-}
-
-.our-history-main-numbers-num p {
+.developers-says-h3 h3 {
     display: block;
     opacity: 1;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: 'Gotham Bold', serif;
+    text-decoration: none;
+}
+
+.developers-says-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 15px;
+}
+
+.developers-says-text-blocks {
+    width: 305px;
+}
+
+.developers-says-text-blocks p {
+    display: block;
+    opacity: 1;
+    color: white;
+    font-size: 18px;
     font-family: 'Gotham XLight', sans-serif;
     text-decoration: none;
 }
 
-.our-history-main-numbers-comment {
-    padding-top: 5px;
-}
-
-.our-history-main-numbers-comment p {
-    display: block;
-    opacity: 1;
-    color: white;
-    font-size: 15px;
-    font-family: 'Gotham XLight', sans-serif;
-    text-decoration: none;
-}
 
 .box-main {
     display: grid;
