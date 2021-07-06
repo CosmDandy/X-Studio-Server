@@ -50,10 +50,14 @@
 </video>
 
 <div class="intro">
-    <div class="intro-content animate-2">
-        <h1>X</h1>
-        <h2>-studio</h2>
-    </div>
+    <div class="intro-content animate-2"></div>
+    <script type="text/javascript">
+        let intro = document.querySelector(".intro-content");
+        window.addEventListener("scroll", function (){
+            let value = window.scrollY;
+            intro.style.backgroundSize = 700 + value + "px";
+        })
+    </script>
 </div>
 
 <!-- Main our-history -->
