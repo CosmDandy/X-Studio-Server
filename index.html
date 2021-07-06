@@ -50,10 +50,14 @@
 </video>
 
 <div class="intro">
-    <div class="intro-content animate-2">
-        <h1>X</h1>
-        <h2>-studio</h2>
-    </div>
+    <div class="intro-content animate-2"></div>
+    <script type="text/javascript">
+        let intro = document.querySelector(".intro-content");
+        window.addEventListener("scroll", function (){
+            let value = window.scrollY;
+            intro.style.backgroundSize = 700 + value * 2 + "px";
+        })
+    </script>
 </div>
 
 <!-- Main our-history -->
@@ -74,25 +78,46 @@
                     </p>
                 </div>
             </div>
-            <div class="our-history-main-numbers">
-                <div class="our-history-main-numbers-1">
-                    <div class="our-history-main-numbers-num">
-                        <p>20 ЛЕТ</p>
+        </div>
+
+        <div class="developers-says">
+            <div class="developers-says-h3">
+                <h3>Клиенты о нас:</h3>
+            </div>
+            <div class="developers-says-text">
+                <div class="developers-says-text-blocks">
+                    <div class="">
+                        <p>С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности
+                            представляет собой интересный эксперимент проверки направлений прогрессивного развития.</p>
                     </div>
-                    <div class="our-history-main-numbers-comment">
-                        <p>на рынке</p>
+                    <div class="developers-says-text-blocks2">
+                        <p>М. М. Анисимов, SEO</p>
+                    </div>
+
+                </div>
+
+                <div class="developers-says-text-blocks">
+                    <div class="">
+                        <p>Таким образом рамки и место обучения кадров способствует подготовки и реализации форм развития.
+                            Разнообразный и богатый опыт реализация намеченных плановых заданий в</p>
+                    </div>
+                    <div class="developers-says-text-blocks2">
+                        <p>Г. А. Беликов, JVM</p>
                     </div>
                 </div>
-                <div class="our-history-main-numbers-2">
-                    <div class="our-history-main-numbers-num">
-                        <p>100K</p>
+                <div class="developers-says-text-blocks">
+                    <div class="developers-says-text-blocks1">
+                        <p>Повседневная практика показывает, что рамки и место обучения кадров позволяет выполнять важные
+                            задания по разработке соответствующий условий активизации.</p>
                     </div>
-                    <div class="our-history-main-numbers-comment">
-                        <p>Lorem ipsum dolor.</p>
+                    <div class="developers-says-text-blocks2">
+                        <p>В. Н. Зайцева, Final Cut Pro X</p>
                     </div>
+
                 </div>
             </div>
         </div>
+
         <div class="box-main">
             <div class="box-main-boxes">
 
@@ -140,7 +165,7 @@
                 </div>
             </div>
             <div class="about-us-main-img">
-                <img src="" alt="">
+                <img src="Files/Photo/Intro.png" alt="">
             </div>
         </div>
     </div>
@@ -283,7 +308,7 @@
             </div>
             <div class="equipment-block">
                 <div id="equipment-block-img2">
-                    <img src="" alt="">
+                    <img src="Files/Photo/eq.png" alt="">
                 </div>
                 <div class="equipment-block-text">
                     <div class="equipment-block-text-list">
@@ -391,15 +416,6 @@
                                 МЭЗ</p>
                         </div>
                     </div>
-                    <div class="equipment-block-text-list">
-                        <div class="equipment-block-text-list-h4">
-                            <h4>Коммутация</h4>
-                        </div>
-                        <div class="equipment-block-text-list-p">
-                            <p>NEUTRIK<br>
-                                CANARE</p>
-                        </div>
-                    </div>
                 </div>
                 <div id="equipment-block-img3">
                     <img src="Files/Photo/Guitar.png" alt=""/>
@@ -431,10 +447,5 @@
         </div>
     </div>
 </div>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1146.3836335057094!2d36.302286438876!3d54.502983988365216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4134bbe4d1d82a6d%3A0xc33c17ba0159ceb3!2z0KHRgtGD0LTQuNGPINC30LLRg9C60L7Qt9Cw0L_QuNGB0LggWC1zdHVkaW8!5e0!3m2!1sru!2sru!4v1600032993772!5m2!1sru!2sru"
-        width="650" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-        tabindex="0"></iframe>
-
 </body>
 </html>

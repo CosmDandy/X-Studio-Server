@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #3b3b3b;
+    background-color: #f3f3f3;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -45,7 +45,7 @@ ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, button {
     }
 }
 
-.header, .submenu a, .logo img {
+.header, .submenu a, .logo img, .intro {
     -webkit-transition: .3s all ease-out;
     -moz-transition: .3s all ease-out;
     transition: .3s all ease-out;
@@ -129,7 +129,7 @@ div.submenu:hover a {
 /* X-studio / Intro */
 
 .intro {
-    background-color: rgba(45, 45, 45, 0.84);
+    background-color: rgba(45, 45, 45, 0.2);
     width: 100%;
     height: 100vh;
     min-height: 500px;
@@ -141,14 +141,13 @@ div.submenu:hover a {
 }
 
 .intro-content {
-    display: flex;
-    margin: auto;
-    text-align: center;
-    padding: 70px 0 0 0;
-    color: #f5f5f5;
-    top: 0;
-    left: 0;
-    z-index: 4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("Photo/L.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px;
 }
 
 .intro-content h1 {
@@ -187,9 +186,8 @@ div.submenu:hover a {
 
 .our-history {
     width: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 210px;
     background-color: #2d2d2d;
-    position: relative;
 }
 
 .our-history-main {
@@ -232,49 +230,52 @@ div.submenu:hover a {
     text-decoration: none;
 }
 
-.our-history-main-numbers {
-    display: flex;
-    padding: 50px 0 100px 0;
+.developers-says {
+    padding: 90px 0 55px 0;
 }
 
-.our-history-main-numbers-1 {
-    width: 230px;
+.developers-says-h3 {
+    padding-bottom: 15px;
 }
 
-.our-history-main-numbers-2 {
-    width: 200px;
-    padding-left: 200px;
-}
-
-.our-history-main-numbers-num {
-    padding-bottom: 5px;
-}
-
-.our-history-main-numbers-num p {
+.developers-says-h3 h3 {
     display: block;
     opacity: 1;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: 'Gotham Bold', serif;
+    text-decoration: none;
+}
+
+.developers-says-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 15px;
+    grid-column-gap: 30px;
+}
+
+.developers-says-text-blocks p {
+    display: block;
+    opacity: 1;
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
     font-family: 'Gotham XLight', sans-serif;
     text-decoration: none;
 }
 
-.our-history-main-numbers-comment {
-    padding-top: 5px;
+.developers-says-text-blocks2 {
+    padding: 15px 0 0 0;
 }
 
-.our-history-main-numbers-comment p {
-    display: block;
-    opacity: 1;
-    color: white;
-    font-size: 15px;
-    font-family: 'Gotham XLight', sans-serif;
-    text-decoration: none;
+.developers-says-text-blocks2 p {
+    font-size: 13px;
+    color: #959393;
 }
 
 .box-main {
     display: grid;
-    height: 300px;
+    height: 270px;
     margin: 0 auto;
     position: absolute;
     width: 94%;
@@ -289,7 +290,7 @@ div.submenu:hover a {
 }
 
 .box-main-boxes {
-    background-color: #171717;
+    background-image: linear-gradient(40deg, rgb(216 70 160), rgb(38 181 227));
 }
 
 /* About us */
@@ -301,7 +302,7 @@ div.submenu:hover a {
 }
 
 .about-us-header {
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .theme {
@@ -318,7 +319,6 @@ div.about-us-header-h2 {
     color: transparent;
     width: fit-content;
     background-image: linear-gradient(150deg, rgb(251, 32, 70), rgb(5, 193, 253));
-
     display: block;
     opacity: 1;
     font-size: 45px;
@@ -371,8 +371,7 @@ div.about-us-header-h2 {
     margin-left: 105px;
     width: 500px;
     height: 500px;
-    background-color: #3b3b3b;
-    box-shadow: 0 0 40px 0 rgba(105, 105, 105, 0.5);
+    /*box-shadow: 0 0 40px 0 rgba(105, 105, 105, 0.5);*/
 }
 
 .about-us-main-img img {
@@ -401,11 +400,12 @@ div.about-us-header-h2 {
     margin: 0 auto;
     padding: 0 30px;
     height: 100%;
+    position: relative;
 }
 
 .work-header {
     padding-top: 70px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .theme {
@@ -451,14 +451,14 @@ div.about-us-header-h2 {
 
 
 .work-main-text-img {
-    height: 140px;
+    height: 160px;
     background-color: #707070;
     box-shadow: 0 0 10px 0 rgba(105, 105, 105, 0.5);
 
 }
 
 .text-img {
-    height: 300px;
+    height: 290px;
 }
 
 .work-main-intro-h5 {
@@ -500,7 +500,7 @@ div.about-us-header-h2 {
 
 .equipment-header {
     width: 480px;
-    padding: 50px 0 40px 0;
+    padding: 65px 0 40px 0;
 }
 
 .equipment-block {
@@ -510,19 +510,18 @@ div.about-us-header-h2 {
 }
 
 #equipment-block-img1 {
-    width: 560px;
+    width: 700px;
     height: 325px;
     margin-left: 50px;
 }
 
-#equipment-block-img1 img {
+#equipment-block-img1 img, #equipment-block-img2 img, #equipment-block-img3 img {
     width: 100%;
 }
 
 #equipment-block-img2 {
     width: 560px;
     height: 630px;
-    background-color: #ffffff;
     margin-right: 60px;
 }
 
@@ -532,21 +531,10 @@ div.about-us-header-h2 {
     margin-left: 60px;
 }
 
-#equipment-block-img3 img {
-    width: 100%;
-}
-
-.equipment-block-text {
-
-}
-
 .equipment-block-text-list {
     padding: 5px 0 20px 0;
 }
 
-.equipment-block-text-list-h4 {
-
-}
 
 .equipment-block-text-list-h4 h4 {
     display: block;
@@ -618,3 +606,6 @@ div.about-us-header-h2 {
 .footer-main-lang {
 
 }
+
+
+
