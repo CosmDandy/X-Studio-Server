@@ -11,20 +11,20 @@ $(window).scroll(function () {
         $('.intro').css('background-color', 'rgba(45, 45, 45, 0.2)');
     }
 
-    if (window.scrollY < (window.screen.height + (document.querySelector('.our-history').offsetHeight - 150))) {
+    if (window.scrollY < (window.screen.height + (document.querySelector('.our-history').offsetHeight - 160))) {
         $('.header').css('background-color', 'rgba(52, 52, 52, 0.9)');
         $('div.submenu a').css('color', 'white');
         $('.logo img').css('filter', 'invert(0)');
     }
 
-    if (window.scrollY > (window.screen.height + (document.querySelector('.our-history').offsetHeight - 150))) {
+    if (window.scrollY > (window.screen.height + (document.querySelector('.our-history').offsetHeight - 160))) {
         $('.header').css('background-color', 'rgba(245,245,247,0.8)');
         $('div.submenu a').css('color', 'black');
         $('.logo img').css('filter', 'invert(1)');
 
     }
 
-    if (window.scrollY > (window.screen.height + 2558)) {
+    if (window.scrollY > (window.screen.height + 2770)) {
         $('.header').css('background-color', 'rgba(52,52,52,0.9)');
         $('div.submenu a').css('color', 'white');
         $('.logo img').css('filter', 'invert(0)');

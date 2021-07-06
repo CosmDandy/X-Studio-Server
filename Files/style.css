@@ -129,7 +129,7 @@ div.submenu:hover a {
 /* X-studio / Intro */
 
 .intro {
-    background-color: rgba(45, 45, 45, 0.84);
+    background-color: rgba(45, 45, 45, 0.2);
     width: 100%;
     height: 100vh;
     min-height: 500px;
@@ -607,3 +607,6 @@ div.about-us-header-h2 {
 .footer-main-lang {
 
 }
+
+
+
