@@ -5,13 +5,19 @@ $(window).scroll(function () {
         $('.header').css('padding', '5px 0');
     }
 
-    if (window.scrollY < (window.screen.height + (document.querySelector('.our-history').offsetHeight))) {
+    if (window.scrollY > 300) {
+        $('.intro').css('background-color', 'rgba(45, 45, 45, 0.8)');
+    } else if (window.scrollY < 300) {
+        $('.intro').css('background-color', 'rgba(45, 45, 45, 0.2)');
+    }
+
+    if (window.scrollY < (window.screen.height + (document.querySelector('.our-history').offsetHeight - 150))) {
         $('.header').css('background-color', 'rgba(52, 52, 52, 0.9)');
         $('div.submenu a').css('color', 'white');
         $('.logo img').css('filter', 'invert(0)');
     }
 
-    if (window.scrollY > (window.screen.height + (document.querySelector('.our-history').offsetHeight))) {
+    if (window.scrollY > (window.screen.height + (document.querySelector('.our-history').offsetHeight - 150))) {
         $('.header').css('background-color', 'rgba(245,245,247,0.8)');
         $('div.submenu a').css('color', 'black');
         $('.logo img').css('filter', 'invert(1)');
