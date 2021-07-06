@@ -187,9 +187,8 @@ div.submenu:hover a {
 
 .our-history {
     width: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 210px;
     background-color: #2d2d2d;
-    position: relative;
 }
 
 .our-history-main {
@@ -274,7 +273,7 @@ div.submenu:hover a {
 
 .box-main {
     display: grid;
-    height: 300px;
+    height: 270px;
     margin: 0 auto;
     position: absolute;
     width: 94%;
@@ -301,7 +300,7 @@ div.submenu:hover a {
 }
 
 .about-us-header {
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .theme {
@@ -318,7 +317,6 @@ div.about-us-header-h2 {
     color: transparent;
     width: fit-content;
     background-image: linear-gradient(150deg, rgb(251, 32, 70), rgb(5, 193, 253));
-
     display: block;
     opacity: 1;
     font-size: 45px;
@@ -401,11 +399,12 @@ div.about-us-header-h2 {
     margin: 0 auto;
     padding: 0 30px;
     height: 100%;
+    position: relative;
 }
 
 .work-header {
     padding-top: 70px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .theme {
@@ -451,14 +450,14 @@ div.about-us-header-h2 {
 
 
 .work-main-text-img {
-    height: 140px;
+    height: 160px;
     background-color: #707070;
     box-shadow: 0 0 10px 0 rgba(105, 105, 105, 0.5);
 
 }
 
 .text-img {
-    height: 300px;
+    height: 290px;
 }
 
 .work-main-intro-h5 {
@@ -500,7 +499,7 @@ div.about-us-header-h2 {
 
 .equipment-header {
     width: 480px;
-    padding: 50px 0 40px 0;
+    padding: 65px 0 40px 0;
 }
 
 .equipment-block {
@@ -510,19 +509,18 @@ div.about-us-header-h2 {
 }
 
 #equipment-block-img1 {
-    width: 560px;
+    width: 700px;
     height: 325px;
     margin-left: 50px;
 }
 
-#equipment-block-img1 img {
+#equipment-block-img1 img, #equipment-block-img2 img, #equipment-block-img3 img {
     width: 100%;
 }
 
 #equipment-block-img2 {
     width: 560px;
     height: 630px;
-    background-color: #ffffff;
     margin-right: 60px;
 }
 
@@ -532,21 +530,10 @@ div.about-us-header-h2 {
     margin-left: 60px;
 }
 
-#equipment-block-img3 img {
-    width: 100%;
-}
-
-.equipment-block-text {
-
-}
-
 .equipment-block-text-list {
     padding: 5px 0 20px 0;
 }
 
-.equipment-block-text-list-h4 {
-
-}
 
 .equipment-block-text-list-h4 h4 {
     display: block;
