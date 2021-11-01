@@ -1,0 +1,170 @@
+/* Glasten */
+
+@font-face {
+    font-family: "Glasten";
+    src: url("Glasten/galsten.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Ageo */
+
+@font-face {
+    font-family: "Ageo Basic";
+    src: url("Ageo/AgeoPersonalUse.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Ageo Bold";
+    src: url("Ageo/AgeoPersonalUse-Bold.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Ageo ExtraBold";
+    src: url("Ageo/AgeoPersonalUse-ExtraBold.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Ageo Heavy";
+    src: url("Ageo/AgeoPersonalUse-Heavy.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Ageo Light";
+    src: url("Ageo/AgeoPersonalUse-Light.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Ageo Medium";
+    src: url("Ageo/AgeoPersonalUse-Medium.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Ageo SemiBold";
+    src: url("Ageo/AgeoPersonalUse-SemiBold.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Ageo Thin";
+    src: url("Ageo/AgeoPersonalUse-Thin.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* SF Pro */
+
+@font-face {
+    font-family: "SF Black";
+    src: url("SF Pro/SF-Pro-Text-Black.otf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "SF Pro Bold";
+    src: url("SF Pro/SF-Pro-Text-Bold.otf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "SF Pro Heavy";
+    src: url("SF Pro/SF-Pro-Text-Heavy.otf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "SF Pro Light";
+    src: url("SF Pro/SF-Pro-Text-Light.otf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "SF Pro Medium";
+    src: url("SF Pro/SF-Pro-Text-Medium.otf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "SF Pro Regular";
+    src: url("SF Pro/SF-Pro-Text-Regular.otf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF Pro Semibold";
+    src: url("SF Pro/SF-Pro-Text-Semibold.otf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF Pro Thin";
+    src: url("SF Pro/SF-Pro-Text-Thin.otf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "SF Pro Ultralight";
+    src: url("SF Pro/SF-Pro-Text-Ultralight.otf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* Gotham */
+
+@font-face {
+    font-family: "Gotham Black";
+    src: url("Gotham/GothaProBla.otf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("Gotham/GothaProBol.otf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gotham Light";
+    src: url("Gotham/GothaProMed.otf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gotham XLight";
+    src: url("Gotham/GothaProReg.otf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gotham Thin";
+    src: url("Gotham/GothaProLig.otf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+
