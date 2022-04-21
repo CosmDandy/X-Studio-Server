@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0">
+      <change afterPath="$PROJECT_DIR$/index_ru.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Новая папка с объектами/Снимок экрана 2022-04-21 в 13.59.37.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/add/Снимок экрана 2022-04-21 в 13.59.37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Новая папка с объектами/Снимок экрана 2022-04-21 в 14.00.06.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/add/Снимок экрана 2022-04-21 в 14.00.06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Новая папка с объектами/Снимок экрана 2022-04-21 в 14.00.26.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/add/Снимок экрана 2022-04-21 в 14.00.26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Новая папка с объектами/Снимок экрана 2022-04-21 в 14.04.06.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/add/Снимок экрана 2022-04-21 в 14.04.06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Новая папка с объектами/Снимок экрана 2022-04-21 в 14.04.24.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/add/Снимок экрана 2022-04-21 в 14.04.24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Новая папка с объектами/Снимок экрана 2022-04-21 в 14.05.25.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/add/Снимок экрана 2022-04-21 в 14.05.25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Новая папка с объектами/Снимок экрана 2022-04-21 в 14.05.34.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/add/Снимок экрана 2022-04-21 в 14.05.34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,16 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/timofey/Documents/GitHub/X-Studio-Server",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/timofey/Documents/GitHub/X-Studio-Server&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +73,8 @@
       <workItem from="1647514576123" duration="663000" />
       <workItem from="1647527894211" duration="607000" />
       <workItem from="1647967133014" duration="658000" />
-      <workItem from="1650537774891" duration="1076000" />
+      <workItem from="1650537774891" duration="4353000" />
+      <workItem from="1650542518627" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>

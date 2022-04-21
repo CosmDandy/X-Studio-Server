@@ -641,39 +641,82 @@ div.about-us-header-h2 {
     grid-template-columns: 1fr 1fr;
 }
 
+
+
+
+
+
+
+
+
 /* Footer */
 
 .footer {
-    padding: 45px 0 25px;
-    height: 150px;
-    background-color: #3b3b3b;
-}
-
-.footer-logo {
-    width: 100px;
-    height: 100px;
-    background-color: #2d2d2d;
+    border-top: solid 0.12em #bebebe;
+    position: relative;
+    padding: 2em 0 4em;
+    background-color: #27282c;
+    /*background-image: url("../images/add/Снимок%20экрана%202022-04-21%20в%2014.04.24.png");*/
 }
 
 .footer-main {
 
+    height: 10em;
 }
 
 .footer-main-text {
+    display: flex;
+    height: 2em;
 
-}
-
-.footer-main-text-c {
-
+    padding: 1.8em 0;
+    justify-content: space-between;
 }
 
 .footer-main-text-social {
+    height: 2em;
+    width: 15em;
+    display: inline-flex;
+    justify-content: space-between;
+}
 
+.social {
+    height: 2em;
+    width: 2em;
+}
+
+.social img {
+    filter: invert(0.9);
+    height: 2em;
+    width: 2em;
 }
 
 .footer-main-lang {
-
+    height: 2em;
+    width: 8em;
 }
 
+.footer-main-lang p {
+    color: #fff;
+    line-height: 22px;
+    font-family: 'Gotham XLight', sans-serif;
+    text-decoration: none;;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.copyright {
+    display: flex;
+    height: 2em;
+    padding: 2em 0 0;
+    justify-content: space-between;
+}
+
+.copyright p {
+    color: #bebebe;
+    font-size: 0.9em;
+    line-height: 22px;
+    font-family: 'Gotham XLight', sans-serif;
+    text-decoration: none;;
+}
 
 
