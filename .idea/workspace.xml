@@ -42,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/timofey/Documents/GitHub/X-Studio-Server",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,7 +65,7 @@
       <workItem from="1647514576123" duration="663000" />
       <workItem from="1647527894211" duration="607000" />
       <workItem from="1647967133014" duration="658000" />
-      <workItem from="1650537774891" duration="656000" />
+      <workItem from="1650537774891" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>
