@@ -3,21 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/DSC_0078.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/DSC_0080.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Guitar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Intro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Mix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/X Design1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/X Design2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/envelope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/eq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/facebook-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/facebook-social-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/l.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/l.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/telegram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/vk-social-logotype.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_ru.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
@@ -51,16 +36,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/timofey/Documents/GitHub/X-Studio-Server&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,6 +61,7 @@
       <workItem from="1647967133014" duration="658000" />
       <workItem from="1650537774891" duration="4353000" />
       <workItem from="1650542518627" duration="2606000" />
+      <workItem from="1650587953928" duration="5531000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>

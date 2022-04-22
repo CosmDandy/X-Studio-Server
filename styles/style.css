@@ -114,7 +114,7 @@ div.submenu:hover a {
     text-decoration: none;
 }
 
-#our-history, #about-us, #works, #equipment, #x-studio {
+#our-history, #about-us, #works, #equipment, #x-studio, #price {
     display: block;
     position: relative;
     top: -60px;
@@ -488,48 +488,68 @@ div.about-us-header-h2 {
 
 /* Price */
 
-.price {
-    background-color: #3b3b3b;
+.pr {
+    background-color: #2d2d2d;
+    padding: 2em 0;
 }
 
-.price-header h2 {
+.pr h2, h3, p {
+    color: #ffffff;
+}
+
+.pr-header {
+    padding: 1.5em 0;
+}
+
+.pr-header h2 {
     display: block;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Gotham Bold', serif;
     text-decoration: none;
     line-height: 50px;
 }
 
-
-.price-title {
-    margin: 25px 0 0 0;
+.pr-content-block {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5em 0;
+    border-bottom: solid rgba(196, 196, 196, 0.8) 0.1em;
+    align-items: center;
+    align-content: center;
 }
 
-.price-title h5 {
+.pr-content-h, .pr-content-d, .pr-content-p {
+    text-align: left;
+}
+
+.pr-content-d h3, .pr-content-p h3, .pr-content-h h3{
     display: block;
-    opacity: 1;
-    color: #171717;
     font-size: 20px;
-    letter-spacing: -1px;
-    line-height: 25px;
-    font-family: 'Gotham light', sans-serif;
+    font-family: 'Gotham Bold', serif;
     text-decoration: none;
 }
 
-.price-content {
-    margin: 25px 0 0 0;
-}
-
-.price-content p {
+.pr-content-d p, .pr-content-p p {
     display: block;
-    opacity: 1;
-    color: #4a4a4a;
-    font-size: 15px;
-    letter-spacing: 0;
-    line-height: 20px;
-    font-family: 'Gotham Xlight', sans-serif;
+    font-size: 17px;
+    font-family: 'Gotham XLight', serif;
     text-decoration: none;
 }
+
+.pr-content-h {
+    width: 15em;
+}
+
+.pr-content-d {
+    width: 15em;
+}
+
+.pr-content-p {
+    width: 20em;
+}
+
+
 
 
 
