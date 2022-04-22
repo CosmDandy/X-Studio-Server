@@ -493,7 +493,7 @@ div.about-us-header-h2 {
     padding: 2em 0;
 }
 
-.pr h2, h3, p {
+.pr h2, .pr h3, .pr p {
     color: #ffffff;
 }
 
