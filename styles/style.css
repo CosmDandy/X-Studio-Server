@@ -693,26 +693,37 @@ div.about-us-header-h2 {
 }
 
 .footer-main-text-social {
-    height: 2em;
+    height: 3em;
     width: 15em;
     display: inline-flex;
     justify-content: space-between;
 }
 
 .social {
-    height: 2em;
-    width: 2em;
+    height: 3em;
+    width: 3em;
+}
+
+.social:hover {
+    background-color: #9b9b9b80;
+    border-radius: 50%;
 }
 
 .social img {
+    padding: 0.5em;
     filter: invert(0.9);
     height: 2em;
     width: 2em;
 }
 
 .footer-main-lang {
-    height: 2em;
+    height: 3em;
     width: 8em;
+}
+
+.footer-main-lang:hover {
+    background-color: #9b9b9b80;
+    border-radius: 2em;
 }
 
 .footer-main-lang p {
@@ -722,6 +733,7 @@ div.about-us-header-h2 {
     text-decoration: none;;
     text-align: center;
     font-size: 1.5em;
+    padding: 0.5em;
 }
 
 .copyright {
