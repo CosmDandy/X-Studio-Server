@@ -680,14 +680,12 @@ div.about-us-header-h2 {
 }
 
 .footer-main {
-
     height: 10em;
 }
 
 .footer-main-text {
     display: flex;
     height: 2em;
-
     padding: 1.8em 0;
     justify-content: space-between;
 }
@@ -718,7 +716,15 @@ div.about-us-header-h2 {
 
 .footer-main-lang {
     height: 3em;
-    width: 8em;
+    width: 11em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-main-lang img {
+    height: 2em;
+    padding: 0.4em;
+    filter: invert(1);
 }
 
 .footer-main-lang:hover {
