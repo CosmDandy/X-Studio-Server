@@ -2,6 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../BD-Web-Project" vcs="Git" />
+    <mapping directory="$USER_HOME$/Documents/ProjectDB" vcs="Git" />
   </component>
 </project>

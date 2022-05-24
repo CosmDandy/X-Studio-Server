@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="BD-Web-Project" />
+    <orderEntry type="module" module-name="ProjectDB" />
   </component>
 </module>

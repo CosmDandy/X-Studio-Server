@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0">
-      <change afterPath="$PROJECT_DIR$/images/icons/translate.png" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/ProjectDB/DB.sql" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/ProjectDB/logout.php" afterDir="false" />
+      <change afterPath="$USER_HOME$/Documents/ProjectDB/note.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/ProjectDB/acc.html" beforeDir="false" afterPath="$USER_HOME$/Documents/ProjectDB/acc.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/ProjectDB/login.php" beforeDir="false" afterPath="$USER_HOME$/Documents/ProjectDB/login.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/ProjectDB/logout.html" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/ProjectDB/main.html" beforeDir="false" afterPath="$USER_HOME$/Documents/ProjectDB/main.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/ProjectDB/new_note.html" beforeDir="false" afterPath="$USER_HOME$/Documents/ProjectDB/new_note.php" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/ProjectDB/note.html" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Documents/ProjectDB/project.sql" beforeDir="false" afterPath="$USER_HOME$/Documents/ProjectDB/photos/project.sql" afterDir="false" />
+      <change beforePath="$USER_HOME$/Documents/ProjectDB/reg.html" beforeDir="false" afterPath="$USER_HOME$/Documents/ProjectDB/reg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/X-Studio-Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/X-Studio-Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_ru.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +44,13 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Documents/ProjectDB" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="2500zLsGCur5u5kaFdXVHyJTm6Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,18 +59,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Documents/ProjectDB/photos" />
       <recent name="$PROJECT_DIR$/images/icons" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="project.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$USER_HOME$/Documents/ProjectDB/project.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.project.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +115,9 @@
       <workItem from="1650542518627" duration="2606000" />
       <workItem from="1650587953928" duration="6500000" />
       <workItem from="1651868291960" duration="72000" />
-      <workItem from="1652839197075" duration="1833000" />
+      <workItem from="1652839197075" duration="2376000" />
+      <workItem from="1652855928929" duration="1220000" />
+      <workItem from="1653323214102" duration="12985000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>
@@ -98,13 +137,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="SHOW_ROOT_NAMES" value="true" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../BD-Web-Project" />
+    </ignored-roots>
     <MESSAGE value="0" />
     <option name="LAST_COMMIT_MESSAGE" value="0" />
   </component>
