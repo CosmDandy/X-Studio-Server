@@ -4,7 +4,6 @@
     <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_ru.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/roni/PhpstormProjects/X-Studio-Server",
+    "last_opened_file_path": "/Users/roni/Documents/GitHub/X-Studio-Server",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "vue.rearranger.settings.migration": "true"
@@ -63,14 +62,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/Documents/ProjectDB/SQL" />
-      <recent name="$USER_HOME$/Documents/ProjectDB/photos" />
+      <recent name="$PROJECT_DIR$/../../ProjectDB/SQL" />
+      <recent name="$PROJECT_DIR$/../../ProjectDB/photos" />
       <recent name="$PROJECT_DIR$/images/icons" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="project.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$USER_HOME$/Documents/ProjectDB/project.sql" />
+      <script-file value="$PROJECT_DIR$/../../ProjectDB/project.sql" />
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
@@ -108,6 +107,7 @@
       <workItem from="1653323214102" duration="14546000" />
       <workItem from="1653923641053" duration="304000" />
       <workItem from="1654250033185" duration="1636000" />
+      <workItem from="1657027763616" duration="2949000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>
