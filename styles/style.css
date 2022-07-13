@@ -365,20 +365,12 @@ div.about-us-header-h2 {
     margin-left: 105px;
     width: 500px;
     height: 500px;
-    /*box-shadow: 0 0 40px 0 rgba(105, 105, 105, 0.5);*/
 }
 
 .about-us-main-img img {
     overflow-x: hidden;
     height: 500px;
 }
-
-
-.under {
-    /*text-decoration: underline;*/
-    color: #373737;
-}
-
 
 /* Work */
 
@@ -486,7 +478,6 @@ div.about-us-header-h2 {
 }
 
 
-
 /* Price */
 
 .pr {
@@ -524,7 +515,7 @@ div.about-us-header-h2 {
     text-align: left;
 }
 
-.pr-content-d h3, .pr-content-p h3, .pr-content-h h3{
+.pr-content-d h3, .pr-content-p h3, .pr-content-h h3 {
     display: block;
     font-size: 20px;
     font-family: 'Gotham Bold', serif;
@@ -550,109 +541,6 @@ div.about-us-header-h2 {
     width: 20em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Equipment */
-
-.equipment {
-    width: 100%;
-    background-color: #2d2d2d;
-}
-
-.equipment-header {
-    display: inline-block;
-    width: calc(100% - 2em);
-    padding: 1em;
-    margin: 1em 0;
-    background-color: #f3f3f3;
-    border-radius: 10px;
-}
-
-.equipment-block {
-    margin: 1em 0;
-    display: inline-flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.equipment-block-text {
-    width: 30%;
-    border-radius: 10px;
-    background-color: #f3f3f3;
-}
-
-#equipment-block-img1 {
-    width: 65%;
-    border-radius: 10px;
-    background-color: #f3f3f3;
-}
-
-#equipment-block-img2 {
-    width: 65%;
-    border-radius: 10px;
-    background-color: #f3f3f3;
-}
-
-#equipment-block-img3 {
-    width: 65%;
-    border-radius: 10px;
-    background-color: #f3f3f3;
-}
-
-#equipment-block-img1 img, #equipment-block-img2 img, #equipment-block-img3 img {
-    width: 100%;
-}
-
-.equipment-block-text-list {
-    padding: 1em;
-}
-
-
-.equipment-block-text-list-h4 h4 {
-    display: block;
-    opacity: 1;
-    color: #2d2d2d;
-    font-size: 20px;
-    letter-spacing: -1px;
-    line-height: 25px;
-    font-family: 'Gotham light', sans-serif;
-    text-decoration: none;
-}
-
-.equipment-block-text-list-p {
-    padding: 0.5em 0 0 1em;
-    color: #2d2d2d;
-}
-
-.equipment-block-text-list-p p {
-    display: block;
-    opacity: 1;
-    color: #2d2d2d;
-    font-size: 15px;
-    letter-spacing: 0;
-    line-height: 20px;
-    font-family: 'Gotham Xlight', sans-serif;
-    text-decoration: none;
-}
-
-
 .about-us-main-blocks {
     display: grid;
     width: auto;
@@ -661,13 +549,6 @@ div.about-us-header-h2 {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
-
-
-
-
-
-
-
 
 
 /* Footer */
@@ -757,5 +638,3 @@ div.about-us-header-h2 {
     font-family: 'Gotham XLight', sans-serif;
     text-decoration: none;;
 }
-
-
