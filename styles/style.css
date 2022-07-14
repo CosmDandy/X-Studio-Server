@@ -1,640 +1,121 @@
 html {
-    scroll-behavior: smooth;
+    height: 1000px;
 }
 
-body {
-    background-color: #f3f3f3;
-    width: 100%;
+html, body, h1, h2, h3, h4, h5, h6, p, a, button {
     margin: 0;
     padding: 0;
-    height: 5000px;
-    font-synthesis: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
 }
 
-
-ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, button {
-    margin: 0;
-    padding: 0
+:hover {
+    transition-duration: 0.4s;
 }
 
-/* Animation */
-
-.animate-1 {
-    animation: smooth 1s cubic-bezier(0.645, 0.045, 0.355, 1);;
+button {
+    border-radius: 50em;
+    padding: 0.5em;
+    border: none;
+    outline: none;
+    background: none;
 }
 
-.animate-2 {
-    animation: smooth 3s cubic-bezier(0.645, 0.045, 0.355, 1);;
+button:hover {
+    background-color: rgba(238, 238, 238, 0.23);
 }
 
-@keyframes smooth {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-.header, .submenu a, .logo img, .intro {
-    -webkit-transition: .3s all ease-out;
-    -moz-transition: .3s all ease-out;
-    transition: .3s all ease-out;
-}
-
-/* Header */
-
-.header {
-    position: fixed;
-    width: 100%;
-    height: 60px;
-    z-index: 100;
-    background-color: rgba(52, 52, 52, 0.9);
-    backdrop-filter: saturate(180%) blur(10px);
-    border-bottom: 1px solid;
-    border-bottom-color: rgba(175, 175, 175, 0.7);
-    padding: 5px 0;
-}
-
-.wrapper-header {
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 980px;
-    height: 100%;
-}
-
-/* Logo */
-
-.logo img {
-    width: 50px;
-    float: left;
-    padding-top: 5px;
-    opacity: 1;
-    filter: invert(0);
-}
-
-div.logo:hover img {
-    opacity: .7;
-    transition-duration: 0.45s;
-}
-
-/* Menu */
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    float: right;
-    height: 60px;
-}
-
-.submenu a {
-    display: block;
-    padding: 22px 10px 0 10px;
-    text-align: center;
-    opacity: 1;
-    color: white;
-    font-size: 16px;
-    font-family: 'Gotham XLight', sans-serif;
-    text-decoration: none;
-    white-space: nowrap;
-    user-select: none;
-    background: no-repeat;
-}
-
-div.submenu:hover a {
-    color: #9b9b9b;
-    transition-duration: 0.45s;
-    opacity: .65;
-    text-decoration: none;
-}
-
-#our-history, #about-us, #works, #equipment, #x-studio, #price {
-    display: block;
-    position: relative;
-    top: -60px;
-    visibility: hidden;
-}
-
-/* X-studio / Intro */
-
-.intro {
-    background-color: rgba(45, 45, 45, 0.2);
-    width: 100%;
-    height: 100vh;
-    min-height: 500px;
-    display: flex;
-    overflow: hidden;
-    z-index: 1;
-    position: relative;
-    max-height: 1300px;
-}
-
-.intro-content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url("../images/logo/Logo.svg") no-repeat center;
-    background-size: 700px;
-}
-
-.intro-content h1 {
-    font-family: "Ageo Bold", serif;
-    padding: 0;
-    margin: 0;
-    font-size: 310px;
-    text-align: center;
-}
-
-.intro-content h2 {
-    font-family: "Ageo Bold", serif;
-    padding: 0;
-    font-size: 110px;
-    text-align: center;
-    margin: 32% 0 0;
-}
-
-/* BG Video */
-
-.bg-video {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    padding: 0;
-    margin: 0 auto;
-    width: auto;
-    height: 100vh;
-    z-index: -150;
-    max-height: 1300px;
-}
-
-/* Main our-history */
-
-.our-history {
-    width: 100%;
-    padding-bottom: 210px;
-    background-color: #2d2d2d;
-}
-
-.our-history-main {
-    display: block;
-    padding-top: 70px;
-    margin-bottom: 5em;
-}
-
-.our-history-main-text {
-    display: block;
-
-}
-
-.our-history-main-text-h2 {
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-.our-history-main-text-h2 h2 {
-    display: block;
-    opacity: 1;
-    color: white;
-    font-size: 45px;
+h1 {
     font-family: 'Gotham Bold', serif;
-    text-decoration: none;
-    text-transform: uppercase;
+    font-size: 10em;
+    color: aliceblue;
 }
 
-.our-history-main-text-p {
-    padding: 20px 65px 0 0;
-    letter-spacing: -1px;
-    line-height: 35px;
-}
-
-.our-history-main-text-p p {
-    display: block;
-    opacity: 1;
-    color: white;
-    font-size: 20px;
-    font-family: 'Gotham Light', sans-serif;
-    text-decoration: none;
-}
-
-.developers-says {
-    padding: 90px 0 55px 0;
-}
-
-.developers-says-h3 {
-    padding-bottom: 15px;
-}
-
-.developers-says-h3 h3 {
-    display: block;
-    opacity: 1;
-    color: white;
-    font-size: 25px;
+h2 {
     font-family: 'Gotham Bold', serif;
-    text-decoration: none;
+    font-size: 6em;
+    color: aliceblue;
 }
 
-.developers-says-text {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 15px;
-    grid-column-gap: 30px;
-}
-
-.developers-says-text-blocks p {
-    display: block;
-    opacity: 1;
-    color: white;
-    font-size: 14px;
-    line-height: 22px;
-    font-family: 'Gotham XLight', sans-serif;
-    text-decoration: none;
-}
-
-.developers-says-text-blocks2 {
-    padding: 15px 0 0 0;
-}
-
-.developers-says-text-blocks2 p {
-    font-size: 13px;
-    color: #959393;
-}
-
-.box-main {
-    display: grid;
-    height: 300px;
-    margin: 0 auto;
-    position: absolute;
-    width: 94%;
-    left: 0;
-    right: 0;
-
-
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 32px;
-    grid-row-gap: 32px;
-}
-
-.box-main-boxes {
-
-}
-
-/* About us */
-
-.about-us {
-    width: 100%;
-    padding-bottom: 50px;
-    background-color: rgb(255, 255, 255);
-}
-
-.main-title {
-    padding-top: 130px;
-}
-
-.theme {
-    padding-bottom: 15px;
-}
-
-div.about-us-header-h2 {
-    padding-top: 15px;
-}
-
-.main-title h2 {
-    background-size: cover;
-    -webkit-background-clip: text;
-    color: transparent;
-    width: fit-content;
-    background-image: linear-gradient(150deg, rgb(251, 32, 70), rgb(5, 193, 253));
-    display: block;
-    opacity: 1;
-    font-size: 45px;
-    letter-spacing: -1px;
-    line-height: 50px;
+h3, h4, h5, h6, p, a {
     font-family: 'Gotham Bold', serif;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.about-us-main {
-    display: flex;
-    padding: 50px 0 0;
-}
-
-.about-us-main-intro {
-    width: 360px;
-}
-
-.about-us-main-intro-h3 {
-    padding-bottom: 10px;
-
-}
-
-.about-us-main-intro-p {
-    padding-top: 35px;
-}
-
-.about-us-main-intro-h3 h3 {
-    display: block;
-    opacity: 1;
-    color: #171717;
-    font-size: 25px;
-    font-family: 'Gotham light', serif;
-    text-decoration: none;
-}
-
-.about-us-main-intro-p p {
-    display: block;
-    opacity: 1;
-    color: #696969;
-    font-size: 18px;
-    letter-spacing: -1px;
-    line-height: 25px;
-    font-family: 'Gotham light', sans-serif;
-    text-decoration: none;
-}
-
-.about-us-main-img {
-    margin-left: 105px;
-    width: 500px;
-    height: 500px;
-}
-
-.about-us-main-img img {
-    overflow-x: hidden;
-    height: 500px;
-}
-
-/* Work */
-
-.works {
-    width: 100%;
-    padding-bottom: 50px;
-    background-color: #f4f4f4;
+    color: aliceblue;
 }
 
 .wrapper {
-    display: block;
-    max-width: 980px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 30px;
-    height: 100%;
+}
+
+#header {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+
+#menu {
+    height: 2em;
+    margin: 1.5em 2em;
+    padding-bottom: 1.5em;
+    border-bottom: aliceblue solid 0.1em;
+}
+
+#menu button {
+    height: fit-content;
+    width: fit-content;
+    margin: 0.5em;
+}
+
+#logo {
+    float: left;
+}
+
+#nav {
+    float: right;
+}
+
+
+
+
+
+
+
+#intro {
     position: relative;
-}
-
-.work-header {
-    padding-top: 70px;
-    padding-bottom: 10px;
-}
-
-.theme {
-    padding-bottom: 15px;
-}
-
-.theme p {
-    display: block;
-    opacity: 1;
-    color: #4a4a4a;
-    font-size: 13px;
-    font-family: 'Gotham Light', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.work-header h3 {
-    display: block;
-    font-size: 30px;
-    font-family: 'Gotham Bold', serif;
-    text-decoration: none;
-    line-height: 50px;
-}
-
-.work-main-text-1 {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 32px;
-    grid-row-gap: 32px;
-    margin: 32px 0;
+    height: calc(100vh + 20em);
+    padding-top: 6em;
+    background: url("../1.jpg") no-repeat center;
+    background-size: cover;
 }
 
-.work-main-text-2 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 32px;
-    grid-row-gap: 32px;
+#company {
+    height: calc(100vh - 6em);
 }
 
-
-.work-main-text-img {
-    height: 160px;
-    background-color: #707070;
-    box-shadow: 0 0 10px 0 rgba(105, 105, 105, 0.5);
-
+#name {
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    top: 40vh;
+    left: 5em;
 }
 
-.text-img {
-    height: 290px;
-}
-
-.work-main-intro-h5 {
-    margin: 25px 0 0 0;
-}
-
-.work-main-intro-p {
-    margin: 25px 0 0 0;
-}
-
-.work-main-intro-h5 h5 {
-    display: block;
-    opacity: 1;
-    color: #171717;
-    font-size: 20px;
-    letter-spacing: -1px;
-    line-height: 25px;
-    font-family: 'Gotham light', sans-serif;
-    text-decoration: none;
-}
-
-.work-main-intro-p p {
-    display: block;
-    opacity: 1;
-    color: #4a4a4a;
-    font-size: 15px;
-    letter-spacing: 0;
-    line-height: 20px;
-    font-family: 'Gotham Xlight', sans-serif;
-    text-decoration: none;
-}
-
-
-/* Price */
-
-.pr {
-    background-color: #2d2d2d;
-    padding: 2em 0;
-}
-
-.pr h2, .pr h3, .pr p {
-    color: #ffffff;
-}
-
-.pr-header {
-    padding: 1.5em 0;
-}
-
-.pr-header h2 {
-    display: block;
-    font-size: 35px;
-    font-family: 'Gotham Bold', serif;
-    text-decoration: none;
-    line-height: 50px;
-}
-
-.pr-content-block {
-    display: inline-flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 1.5em 0;
-    border-bottom: solid rgba(196, 196, 196, 0.8) 0.1em;
-    align-items: center;
-    align-content: center;
-}
-
-.pr-content-h, .pr-content-d, .pr-content-p {
-    text-align: left;
-}
-
-.pr-content-d h3, .pr-content-p h3, .pr-content-h h3 {
-    display: block;
-    font-size: 20px;
-    font-family: 'Gotham Bold', serif;
-    text-decoration: none;
-}
-
-.pr-content-d p, .pr-content-p p {
-    display: block;
-    font-size: 17px;
-    font-family: 'Gotham XLight', serif;
-    text-decoration: none;
-}
-
-.pr-content-h {
-    width: 15em;
-}
-
-.pr-content-d {
-    width: 15em;
-}
-
-.pr-content-p {
+#desc {
+    position: absolute;
     width: 20em;
-}
-
-.about-us-main-blocks {
-    display: grid;
-    width: auto;
-    height: 300px;
-    padding-top: 40px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    top: 47vh;
+    right: 5em;
 }
 
 
-/* Footer */
 
-.footer {
-    border-top: solid 0.12em #bebebe;
-    position: relative;
-    padding: 2em 0 4em;
-    background-color: #27282c;
-    /*background-image: url("../images/add/Снимок%20экрана%202022-04-21%20в%2014.04.24.png");*/
-}
 
-.footer-main {
-    height: 10em;
-}
 
-.footer-main-text {
-    display: flex;
-    height: 2em;
-    padding: 1.8em 0;
-    justify-content: space-between;
-}
 
-.footer-main-text-social {
-    height: 3em;
-    width: 15em;
-    display: inline-flex;
-    justify-content: space-between;
-}
 
-.social {
-    height: 3em;
-    width: 3em;
-}
-
-.social:hover {
-    background-color: #9b9b9b80;
-    border-radius: 50%;
-}
-
-.social img {
-    padding: 0.5em;
-    filter: invert(0.9);
-    height: 2em;
-    width: 2em;
-}
-
-.footer-main-lang {
-    height: 3em;
-    width: 11em;
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer-main-lang img {
-    height: 2em;
-    padding: 0.4em;
-    filter: invert(1);
-}
-
-.footer-main-lang:hover {
-    background-color: #9b9b9b80;
-    border-radius: 2em;
-}
-
-.footer-main-lang p {
-    color: #fff;
-    line-height: 22px;
-    font-family: 'Gotham XLight', sans-serif;
-    text-decoration: none;;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 0.5em;
-}
-
-.copyright {
-    display: flex;
-    height: 2em;
-    padding: 2em 0 0;
-    justify-content: space-between;
-}
-
-.copyright p {
-    color: #bebebe;
-    font-size: 0.9em;
-    line-height: 22px;
-    font-family: 'Gotham XLight', sans-serif;
-    text-decoration: none;;
+#about-us {
+    height: 20em;
+    margin: 2em 3em;
+    background-color: #c6c6c67d;
+    border-radius: 3em;
+    backdrop-filter: saturate(180%) blur(10px);
 }
