@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +108,8 @@
       <workItem from="1657186817059" duration="210000" />
       <workItem from="1657278433812" duration="29000" />
       <workItem from="1657720623873" duration="696000" />
+      <workItem from="1657721929317" duration="428000" />
+      <workItem from="1657811983909" duration="478000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>
@@ -179,8 +179,8 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/../BD-Web-Project" />
-      <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/../../ProjectDB" />
+      <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="0" />
     <option name="LAST_COMMIT_MESSAGE" value="0" />
