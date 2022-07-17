@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0" />
+    <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-ExtraBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-Heavy.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-SemiBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Glasten/galsten.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Black.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Heavy.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Semibold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Ultralight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_ru.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +72,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/roni/Documents/GitHub/X-Studio-Server",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -109,7 +133,11 @@
       <workItem from="1657278433812" duration="29000" />
       <workItem from="1657720623873" duration="696000" />
       <workItem from="1657721929317" duration="428000" />
-      <workItem from="1657811983909" duration="11701000" />
+      <workItem from="1657811983909" duration="12246000" />
+      <workItem from="1657861511269" duration="3237000" />
+      <workItem from="1658089813640" duration="12004000" />
+      <workItem from="1658101864811" duration="5000" />
+      <workItem from="1658101897281" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>
@@ -180,7 +208,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../BD-Web-Project" />
       <path value="$PROJECT_DIR$/../../ProjectDB" />
-      <path value="$PROJECT_DIR$" />
+      <path value="https:/github.com/CosmDandy/X-Studio-Server" />
     </ignored-roots>
     <MESSAGE value="0" />
     <option name="LAST_COMMIT_MESSAGE" value="0" />
