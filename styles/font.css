@@ -18,7 +18,7 @@ a, p {
 }
 
 p {
-    margin: 1em 0.5em;
+    margin: 1em 0;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 /* Gotham */

@@ -12,7 +12,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, a, button {
     padding: 0;
 }
 
-div {
+div, button {
     transition: .3s all ease-out;
 }
 
@@ -29,7 +29,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(238, 238, 238, 0.23);
+    background-color: rgba(238, 238, 238, 0.23) !important;
 }
 
 .wrapper {
@@ -96,9 +96,23 @@ button:hover {
 #intro {
     height: 170vh;
     padding: 6em 3em 0;
-    background: url("../1.jpg") no-repeat center;
-    background-size: cover;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 #company {
     height: calc(100vh - 6em);
@@ -128,7 +142,7 @@ button:hover {
     justify-content: space-evenly;
     margin: 2em 0;
     padding: 2em;
-    background-color: rgb(147 146 146 / 50%);
+    background-color: rgb(95 95 95 / 50%);
     border-radius: 3em;
     backdrop-filter: saturate(180%) blur(10px);
 }
@@ -143,6 +157,102 @@ button:hover {
     width: 15em;
 }
 
+/* Services */
+
+#services-wrapper {
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+#services a, #services p, #services h3 {
+    color: black;
+}
+
+#services h2 {
+    margin: 1em 0;
+    width: 100%;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(120deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#services-desc {
+    width: 25em;
+}
+
+#services img {
+    width: 30em;
+}
+
+
+
+.theme {
+    padding-bottom: 15px;
+}
+
+div.about-us-header-h2 {
+    padding-top: 15px;
+}
+
+
+.about-us-main {
+    display: flex;
+    padding: 50px 0 0;
+}
+
+.about-us-main-intro {
+    width: 360px;
+}
+
+.about-us-main-intro-h3 {
+    padding-bottom: 10px;
+
+}
+
+.about-us-main-intro-p {
+    padding-top: 35px;
+}
+
+.about-us-main-intro-h3 h3 {
+    display: block;
+    opacity: 1;
+    color: #171717;
+    font-size: 25px;
+    font-family: 'Gotham light', serif;
+    text-decoration: none;
+}
+
+.about-us-main-intro-p p {
+    display: block;
+    opacity: 1;
+    color: #696969;
+    font-size: 18px;
+    letter-spacing: -1px;
+    line-height: 25px;
+    font-family: 'Gotham light', sans-serif;
+    text-decoration: none;
+}
+
+.about-us-main-img {
+    margin-left: 105px;
+    width: 500px;
+    height: 500px;
+}
+
+.about-us-main-img img {
+    overflow-x: hidden;
+    height: 500px;
+}
+
+
 /* News */
 
 #news {
@@ -153,9 +263,24 @@ button:hover {
 
 /* Footer */
 
-.footer {
-    height: 15em;
+#footer {
     position: relative;
-    padding: 2em 0em 4em;
+    padding: 15em 0 2em;
     background-image: linear-gradient(to right bottom, #f0f0f0, #d9d9e4, #bfc3d9, #a1aece, #809bc3, #7a94c5, #758dc6, #7385c6, #9983cc, #bf80c9, #e37bbd, #ff79a9);
+}
+
+#footerW {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#footer-logo {
+    display: flex;
+    align-items: baseline;
+}
+
+#footer-desc {
+    display: flex;
+    align-items: baseline;
 }

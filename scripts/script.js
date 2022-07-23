@@ -13,62 +13,72 @@ function disappear() {
     })
 }
 
-let intro = document.querySelector(".intro-content");
-window.addEventListener("scroll", function () {
-    let value = window.scrollY;
-    intro.style.backgroundSize = 700 + value * 2 + "px";
-})
-
 function menuScroll() {
+    let menu = $('#menu')
     if (window.scrollY > 100) {
-        $('#menu').css('margin', '0em');
-        $('#menu').css('padding', '0.5em 2em 0.3em');
+        menu.css('margin', '0em');
+        menu.css('padding', '0.5em 2em 0.3em');
     } else {
-        $('#menu').css('margin', '1.5em 2em');
-        $('#menu').css('padding', '0em 1em 1em');
+        menu.css('margin', '1.5em 2em');
+        menu.css('padding', '0em 1em 1em');
     }
 
     if (window.scrollY > 250) {
-        $('#menu').css('background-color', 'rgb(95 95 95 / 50%)');
-        $('#menu').css('backdrop-filter', 'saturate(180%) blur(10px)');
+        menu.css('background-color', 'rgb(95 95 95 / 50%)');
+        menu.css('backdrop-filter', 'saturate(180%) blur(10px)');
     } else {
-        $('#menu').css('background-color', '#ffffff00');
-        $('#menu').css('backdrop-filter', 'None');
+        menu.css('background-color', '#ffffff00');
+        menu.css('backdrop-filter', 'None');
     }
 }
 
 function menuHighlite() {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 660) {
         $('#sub-nav1').css('background-color', 'rgba(238, 238, 238, 0.23)');
     } else {
         $('#sub-nav1').css('background-color', '#ffffff00');
     }
 
-    if (window.scrollY > 200) {
+    if (window.scrollY > 1430) {
+        $('#sub-nav1').css('background-color', '#ffffff00');
         $('#sub-nav2').css('background-color', 'rgba(238, 238, 238, 0.23)');
     } else {
         $('#sub-nav2').css('background-color', '#ffffff00');
     }
 
-    if (window.scrollY > 300) {
+    if (window.scrollY > 1700) {
+        $('#sub-nav1').css('background-color', '#ffffff00');
+        $('#sub-nav2').css('background-color', '#ffffff00');
         $('#sub-nav3').css('background-color', 'rgba(238, 238, 238, 0.23)');
     } else {
         $('#sub-nav3').css('background-color', '#ffffff00');
     }
 
-    if (window.scrollY > 400) {
+    if (window.scrollY > 2000) {
+        $('#sub-nav1').css('background-color', '#ffffff00');
+        $('#sub-nav2').css('background-color', '#ffffff00');
+        $('#sub-nav3').css('background-color', '#ffffff00');
         $('#sub-nav4').css('background-color', 'rgba(238, 238, 238, 0.23)');
     } else {
         $('#sub-nav4').css('background-color', '#ffffff00');
     }
 
-    if (window.scrollY > 500) {
+    if (window.scrollY > 2300) {
+        $('#sub-nav1').css('background-color', '#ffffff00');
+        $('#sub-nav2').css('background-color', '#ffffff00');
+        $('#sub-nav3').css('background-color', '#ffffff00');
+        $('#sub-nav4').css('background-color', '#ffffff00');
         $('#sub-nav5').css('background-color', 'rgba(238, 238, 238, 0.23)');
     } else {
         $('#sub-nav5').css('background-color', '#ffffff00');
     }
 
-    if (window.scrollY > 600) {
+    if (window.scrollY > 3000) {
+        $('#sub-nav1').css('background-color', '#ffffff00');
+        $('#sub-nav2').css('background-color', '#ffffff00');
+        $('#sub-nav3').css('background-color', '#ffffff00');
+        $('#sub-nav4').css('background-color', '#ffffff00');
+        $('#sub-nav5').css('background-color', '#ffffff00');
         $('#sub-nav6').css('background-color', 'rgba(238, 238, 238, 0.23)');
     } else {
         $('#sub-nav6').css('background-color', '#ffffff00');
@@ -97,7 +107,7 @@ function smoothAppear() {
 
 $(window).scroll(function () {
     menuScroll();
-    // menuHighlite();
+    menuHighlite();
     // disappear()
     smoothAppear();
 });

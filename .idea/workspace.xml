@@ -3,24 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-ExtraBold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-Heavy.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-Light.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-Medium.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-SemiBold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse-Thin.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Ageo/AgeoPersonalUse.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Glasten/galsten.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Black.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Heavy.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Light.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Medium.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Semibold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Thin.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF Pro/SF-Pro-Text-Ultralight.otf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_ru.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/font.css" afterDir="false" />
@@ -63,24 +45,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/roni/Documents/GitHub/X-Studio-Server",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/roni/Documents/GitHub/X-Studio-Server&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../../ProjectDB/SQL" />
@@ -137,7 +119,8 @@
       <workItem from="1657861511269" duration="3237000" />
       <workItem from="1658089813640" duration="12004000" />
       <workItem from="1658101864811" duration="5000" />
-      <workItem from="1658101897281" duration="17000" />
+      <workItem from="1658101897281" duration="663000" />
+      <workItem from="1658309076496" duration="7183000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>
