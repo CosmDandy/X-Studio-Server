@@ -61,14 +61,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../../ProjectDB/SQL" />
-      <recent name="$PROJECT_DIR$/../../ProjectDB/photos" />
+      <recent name="$USER_HOME$/ProjectDB/SQL" />
+      <recent name="$USER_HOME$/ProjectDB/photos" />
       <recent name="$PROJECT_DIR$/images/icons" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="project.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/../../ProjectDB/project.sql" />
+      <script-file value="$USER_HOME$/ProjectDB/project.sql" />
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
@@ -180,7 +180,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../BD-Web-Project" />
       <path value="$PROJECT_DIR$" />
-      <path value="$PROJECT_DIR$/../../ProjectDB" />
+      <path value="$USER_HOME$/ProjectDB" />
     </ignored-roots>
     <MESSAGE value="0" />
     <option name="LAST_COMMIT_MESSAGE" value="0" />
