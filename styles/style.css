@@ -7,9 +7,10 @@ html {
     background-color: black;
 }
 
-html, body, h1, h2, h3, h4, h5, h6, p, a, button {
+html, body, h1, h2, h3, h4, h5, h6, p, a, button, iframe {
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 div, button {
@@ -94,7 +95,7 @@ button:hover {
 /* Intro */
 
 #intro {
-    height: 170vh;
+    height: 115vh;
     padding: 6em 3em 0;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 200% 200%;
@@ -115,7 +116,7 @@ button:hover {
 
 
 #company {
-    height: calc(100vh - 6em);
+    height: calc(95vh - 6em);
 }
 
 #name {
@@ -128,33 +129,9 @@ button:hover {
 
 #desc {
     position: absolute;
-    width: 20em;
-    top: 39vh;
+    width: 21em;
+    top: 43vh;
     right: 0;
-}
-
-/* About Us */
-
-#about-us {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-evenly;
-    margin: 2em 0;
-    padding: 2em;
-    background-color: rgb(95 95 95 / 50%);
-    border-radius: 3em;
-    backdrop-filter: saturate(180%) blur(10px);
-}
-
-#about-us-header {
-    width: 100%;
-}
-
-.about-us-mini {
-    display: flex;
-    flex-wrap: wrap;
-    width: 15em;
 }
 
 /* Services */
@@ -164,8 +141,21 @@ button:hover {
     background-color: rgb(255, 255, 255);
 }
 
-#services a, #services p, #services h3 {
+#grad {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 20em;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 100%);
+}
+
+#services h3 {
     color: black;
+}
+
+#services a, #services p {
+    font-family: 'Gotham Light', serif;
+    color: #696969;
 }
 
 #services h2 {
@@ -173,7 +163,7 @@ button:hover {
     width: 100%;
     -webkit-background-clip: text;
     color: transparent;
-    background-image: linear-gradient(120deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-image: linear-gradient(230deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 200% 200%;
     animation: gradient 10s ease infinite;
 }
@@ -184,14 +174,27 @@ button:hover {
     justify-content: space-between;
 }
 
-#services-desc {
+.services-desc {
     width: 25em;
 }
 
-#services img {
+.services-cont {
+    margin: 5em 0;
+}
+
+#date1, #date2 {
+    display: inline;
+}
+
+#services-img {
+    position: relative;
     width: 30em;
 }
 
+#services img {
+    margin: 10em 0;
+    height: 30em;
+}
 
 
 .theme {
@@ -263,24 +266,53 @@ div.about-us-header-h2 {
 
 /* Footer */
 
-#footer {
+#footer-wrapper {
     position: relative;
-    padding: 15em 0 2em;
-    background-image: linear-gradient(to right bottom, #f0f0f0, #d9d9e4, #bfc3d9, #a1aece, #809bc3, #7a94c5, #758dc6, #7385c6, #9983cc, #bf80c9, #e37bbd, #ff79a9);
+    background: linear-gradient(to right bottom, #fc354c, #0abfbc);
 }
 
-#footerW {
+#footer-contact {
     display: flex;
+    padding: 2em 0;
+}
+
+#footer-contact-desc {
+    justify-content: flex-end;
+}
+
+#footer-contact-desc, #footer-social {
+    display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
+}
+
+#footer-social div{
+    width: 7em;
+    display: flex;
     justify-content: space-between;
 }
 
-#footer-logo {
+.contacts {
     display: flex;
-    align-items: baseline;
+    border-top: #eeeeee 2px solid;
+    margin: 1em;
+    padding-top: 0.5em;
+    justify-content: space-between;
+    width: 30em;
 }
 
 #footer-desc {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
+    padding: 5em 0 2em;
+}
+
+#footer-logo, #footer-copyright {
+    display: flex;
+    align-items: baseline;
+}
+
+#footer-copyright a {
+    margin: 0 0.5em;
 }
