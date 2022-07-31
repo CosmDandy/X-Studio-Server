@@ -52,26 +52,15 @@ function menuHighlite() {
     //     $('#sub-nav4').css('background-color', '#ffffff00');
     // }
     //
-    // if (window.scrollY > 2300) {
-    //     $('#sub-nav1').css('background-color', '#ffffff00');
-    //     $('#sub-nav2').css('background-color', '#ffffff00');
-    //     $('#sub-nav3').css('background-color', '#ffffff00');
-    //     $('#sub-nav4').css('background-color', '#ffffff00');
-    //     $('#sub-nav5').css('background-color', 'rgba(238, 238, 238, 0.23)');
-    // } else {
-    //     $('#sub-nav5').css('background-color', '#ffffff00');
-    // }
-    //
-    // if (window.scrollY > 3000) {
-    //     $('#sub-nav1').css('background-color', '#ffffff00');
-    //     $('#sub-nav2').css('background-color', '#ffffff00');
-    //     $('#sub-nav3').css('background-color', '#ffffff00');
-    //     $('#sub-nav4').css('background-color', '#ffffff00');
-    //     $('#sub-nav5').css('background-color', '#ffffff00');
-    //     $('#sub-nav6').css('background-color', 'rgba(238, 238, 238, 0.23)');
-    // } else {
-    //     $('#sub-nav6').css('background-color', '#ffffff00');
-    // }
+    if (window.scrollY > document.querySelector('body').offsetHeight - $('#footer-wrapper').height() -600) {
+        $('#sub-nav1').css('background-color', '#ffffff00');
+        $('#sub-nav2').css('background-color', '#ffffff00');
+        $('#sub-nav3').css('background-color', '#ffffff00');
+        $('#sub-nav4').css('background-color', '#ffffff00');
+        $('#sub-nav5').css('background-color', 'rgba(238, 238, 238, 0.23)');
+    } else {
+        $('#sub-nav5').css('background-color', '#ffffff00');
+    }
 }
 
 // function smoothAppear() {
@@ -87,7 +76,7 @@ function servicesToFix() {
     let element = "#services-img";
     let c_element = "#services img";
     let pos_start = $(element).offset().top;
-    let pos_end = $('#intro').height() + $('#services-wrapper').height() - $('#services img').height() - 160 - 160 + 96;
+    let pos_end = $('#intro').height() + $('#services-wrapper').height() - $('#services img').height() - 160 + 96;
     if (window.scrollY < pos_start - 200) {
         element1.style.paddingTop = 200 + "px";
         element2.style.paddingTop = 200 + "px";
@@ -139,6 +128,7 @@ function servicesDate() {
     let year = date.getFullYear();
     document.getElementById('date1').innerHTML = year - 1999;
     document.getElementById('date2').innerHTML = year;
+    // document.getElementById('test').innerHTML = document.querySelector('body').offsetHeight - $('#footer-wrapper').height();
 }
 
 function scrollto() {
@@ -160,10 +150,8 @@ function scrollto() {
 $(window).scroll(function () {
     menuScroll();
     menuHighlite();
-    // smoothAppear();
     servicesToFix();
     servicesScrollChange();
     servicesDate()
     scrollto();
-    // document.getElementById('test').innerHTML = pos_end;
 });
