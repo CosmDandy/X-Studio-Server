@@ -35,7 +35,8 @@ button:hover {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 60em;
+    max-width: 75em;
+    padding: 0 2em;
     position: relative;
 }
 
@@ -55,6 +56,7 @@ button:hover {
 }
 
 #menuW {
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -134,9 +136,9 @@ button:hover {
     right: 0;
 }
 
-/* Services */
+/* about */
 
-#services-wrapper {
+#about-wrapper {
     padding-bottom: 50px;
     background-color: rgb(255, 255, 255);
 }
@@ -149,16 +151,16 @@ button:hover {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 100%);
 }
 
-#services h3 {
+#about h3 {
     color: black;
 }
 
-#services a, #services p {
+#about a, #about p {
     font-family: 'Gotham Light', serif;
     color: #696969;
 }
 
-#services h2 {
+#about h2 {
     margin: 1em 0;
     width: 100%;
     -webkit-background-clip: text;
@@ -168,17 +170,17 @@ button:hover {
     animation: gradient 10s ease infinite;
 }
 
-#services {
+#about {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.services-desc {
+.about-desc {
     width: 25em;
 }
 
-.services-cont {
+.about-cont {
     margin: 5em 0;
 }
 
@@ -186,22 +188,68 @@ button:hover {
     display: inline;
 }
 
-#services-img {
+#about-img {
     position: relative;
     width: 30em;
 }
 
-#services img {
+#about img {
     margin-top: 10em;
     height: 30em;
 }
 
-/* News */
+/* Services */
 
-#news {
-    width: 100%;
-    height: 600px;
-    background-color: black;
+#services-wrapper {
+    background-color: #eaeaec;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#services-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services-block {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(53, 53, 53, 0.8);
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    width: 20em;
+}
+
+.services-block h3 {
+    font-size: 1.5em;
+}
+
+.services-block img {
+    border-radius: 1em;
+    height: 8em;
+}
+
+.services-desc {
+    margin: 2em 0;
+}
+
+.services-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Price List */
+#price-list {
+    padding: 2em 1em;
+    text-align: center;
+    background: linear-gradient(90deg, #48a4f7, #bc42ab);
 }
 
 /* Footer */
@@ -230,7 +278,7 @@ button:hover {
     text-align: end;
 }
 
-#footer-social div{
+#footer-social div {
     width: 16em;
     display: flex;
     justify-content: space-between;

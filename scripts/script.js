@@ -28,7 +28,7 @@ function menuHighlite() {
         $('#sub-nav1').css('background-color', '#ffffff00');
     }
 
-    if (window.scrollY > $('#intro').height() + $('#services-wrapper').height() + 80) {
+    if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80) {
         $('#sub-nav1').css('background-color', '#ffffff00');
         $('#sub-nav2').css('background-color', 'rgba(238, 238, 238, 0.23)');
     } else {
@@ -67,16 +67,16 @@ function menuHighlite() {
 //
 // }
 
-function servicesToFix() {
-    let element1 = document.querySelector("#services-cont-1");
-    let element2 = document.querySelector("#services-cont-2");
-    let element3 = document.querySelector("#services-cont-3");
-    let element4 = document.querySelector("#services-cont-4");
+function aboutToFix() {
+    let element1 = document.querySelector("#about-cont-1");
+    let element2 = document.querySelector("#about-cont-2");
+    let element3 = document.querySelector("#about-cont-3");
+    let element4 = document.querySelector("#about-cont-4");
 
-    let element = "#services-img";
-    let c_element = "#services img";
+    let element = "#about-img";
+    let c_element = "#about img";
     let pos_start = $(element).offset().top;
-    let pos_end = $('#intro').height() + $('#services-wrapper').height() - $('#services img').height() - 160 + 96;
+    let pos_end = $('#intro').height() + $('#about-wrapper').height() - $('#about img').height() - 160 + 96;
     if (window.scrollY < pos_start - 200) {
         element1.style.paddingTop = 200 + "px";
         element2.style.paddingTop = 200 + "px";
@@ -105,16 +105,16 @@ function servicesToFix() {
     }
 }
 
-function servicesScrollChange() {
+function aboutScrollChange() {
     let value = window.scrollY;
-    let element1 = document.querySelector("#services-cont-1");
-    let element2 = document.querySelector("#services-cont-2");
-    let element3 = document.querySelector("#services-cont-3");
-    let element4 = document.querySelector("#services-cont-4");
+    let element1 = document.querySelector("#about-cont-1");
+    let element2 = document.querySelector("#about-cont-2");
+    let element3 = document.querySelector("#about-cont-3");
+    let element4 = document.querySelector("#about-cont-4");
     let padding1 = $('#intro').height() - value;
-    let padding2 = padding1 + $('#services-cont-1').height();
-    let padding3 = padding2 + $('#services-cont-2').height();
-    let padding4 = padding3 + $('#services-cont-3').height();
+    let padding2 = padding1 + $('#about-cont-1').height();
+    let padding3 = padding2 + $('#about-cont-2').height();
+    let padding4 = padding3 + $('#about-cont-3').height();
     if (200 > padding1) {
         element1.style.paddingTop = padding1 + "px";
         element2.style.paddingTop = padding2 + "px";
@@ -123,7 +123,7 @@ function servicesScrollChange() {
     }
 }
 
-function servicesDate() {
+function aboutDate() {
     let date = new Date();
     let year = date.getFullYear();
     document.getElementById('date1').innerHTML = year - 1999;
@@ -131,8 +131,8 @@ function servicesDate() {
     // document.getElementById('test').innerHTML = document.querySelector('body').offsetHeight - $('#footer-wrapper').height();
 }
 
-function scrollto() {
-    $('.scrollto a').on('click', function () {
+function navScroll() {
+    $('.navScroll a').on('click', function () {
 
         let href = $(this).attr('href');
 
@@ -150,8 +150,7 @@ function scrollto() {
 $(window).scroll(function () {
     menuScroll();
     menuHighlite();
-    servicesToFix();
-    servicesScrollChange();
-    servicesDate()
-    scrollto();
+    aboutToFix();
+    aboutScrollChange();
+    aboutDate()
 });
