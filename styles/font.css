@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6, a, p {
     text-decoration: none;
 }
 
-h1, h2, h3 {
+h1, h3 {
     font-family: 'Gotham Bold', serif;
 }
 
@@ -12,12 +12,18 @@ h1 {
 }
 
 h2 {
-    font-size: 3.4em;
+    width: 100%;
+    font-family: 'Gotham Black', serif;
+    font-size: 3em;
+    line-height: 1em;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    padding: 2em 0 0.5em;
 }
 
 h3 {
-    font-size: 2.2em;
-    margin-bottom: 1.5em;
+    font-size: 2em;
+    padding: 2em 0 0.5em;
 }
 
 h4 {
@@ -43,9 +49,9 @@ a {
 }
 
 p {
-    font-family: 'Gotham Light', serif;
+    font-family: 'Gotham XLight', serif;
     font-size: 1em;
-    margin: 0 0 1em;
+    padding: 1em 0;
 }
 
 /* Gotham */
