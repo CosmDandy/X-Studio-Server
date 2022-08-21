@@ -4,7 +4,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    background-color: black;
+    background-color: #ffffff;
 }
 
 html, body, h1, h2, h3, h4, h5, h6, p, a, button, iframe {
@@ -21,6 +21,38 @@ div, button {
     transition: .3s all ease-out;
 }
 
+.red:hover {
+    background-color: #e84c3e
+}
+
+.blue:hover {
+    background-color: #0794b8
+}
+
+.yellow:hover {
+    background-color: #f1dd0a
+}
+
+.orange:hover {
+    background-color: #e8713d
+}
+
+.green:hover {
+    background-color: #40b872
+}
+
+.crayola:hover {
+    background-color: #a5b5fc;
+}
+
+.pink:hover {
+    background-color: #ef7aa6;
+}
+
+.canary:hover  {
+    background-color: #57E2E5;
+}
+
 button {
     border-radius: 50em;
     padding: 0.5em;
@@ -35,8 +67,9 @@ button:hover {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 60em;
-    padding: 0 2em;
+    max-width: 70em;
+    min-width: 55em;
+    padding: 0 3em;
     position: relative;
 }
 
@@ -47,7 +80,7 @@ button:hover {
     top: 0;
 }
 
-#menu {
+#menu-wrapper {
     height: 3em;
     margin: 1.5em 2em;
     padding: 0 1em 1em;
@@ -55,7 +88,7 @@ button:hover {
     transition: .3s all ease-out;
 }
 
-#menuW {
+#menu {
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -98,10 +131,15 @@ button:hover {
 
 #intro {
     height: 115vh;
+    max-height: 70em;
     padding: 6em 3em 0;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 200% 200%;
     animation: gradient 10s ease infinite;
+}
+
+#intro .wrapper {
+    max-height: 55em;
 }
 
 @keyframes gradient {
@@ -118,21 +156,23 @@ button:hover {
 
 
 #company {
-    height: calc(95vh - 6em);
+    display: flex;
+    height: calc(95vh - 4em);
+    max-height: 55em;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #name {
     display: flex;
     align-items: baseline;
-    position: absolute;
     top: 33vh;
     left: 0;
 }
 
 #desc {
-    position: absolute;
     width: 21em;
-    top: 43vh;
+    top: 38vh;
     right: 0;
 }
 
@@ -193,14 +233,15 @@ button:hover {
 }
 
 #about img {
-    margin-top: 10em;
+    margin-top: 25vh;
     height: 30em;
 }
 
 /* Services */
 
 #services-wrapper {
-    background-color: #eaeaec;
+    background-color: #f4f4f4;
+    padding-bottom: 4em;
 }
 
 #services {
@@ -208,7 +249,7 @@ button:hover {
     flex-wrap: wrap;
 }
 
-#services a, #services h3, #services h2, #services p {
+#services a, #services h4, #services h2, #services p {
     color: black;
 }
 
@@ -221,27 +262,35 @@ button:hover {
     margin: 2em 0 0 0;
 }
 
-#el2 {
+.el2 {
     grid-template-columns: 1fr 1fr;
 }
 
-#el3 {
+.el3 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .services-block {
     display: flex;
+    /*height: fit-content;*/
     flex-direction: column;
-    border-radius: 0.5em;
+    border-radius: 0.4em;
     padding: 0.5em;
-}
-
-.services-block:hover {
-    background-color: rgba(53, 53, 53, 0.8);
 }
 
 .services-block h3 {
     font-size: 1.5em;
+}
+
+.services-desc {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.big-img, .medium-img, .small-img {
+    box-shadow: 0 0 10px 0 rgb(105 105 105 / 50%);
 }
 
 .big-img {
@@ -259,6 +308,21 @@ button:hover {
 .services-price {
     display: flex;
     justify-content: space-between;
+    border-radius: 0.5em;
+    background-color: rgb(180 180 180 / 60%);
+    padding: 0 1em;
+}
+
+.services-price:hover {
+    background-color: #ffffff !important;
+}
+
+.services-block:hover .services-price {
+    background-color: rgb(255 255 255 / 85%);
+}
+
+.services-block:hover .big-img, .services-block:hover .medium-img {
+    outline: #ffffff 1px solid !important;
 }
 
 /* Price List */
@@ -273,6 +337,47 @@ button:hover {
     text-decoration: underline;
 }
 
+/* Example */
+
+#example-wrapper {
+    background-color: #323236;
+    padding-bottom: 4em;
+}
+
+.example-block {
+    margin: 0 0 0 30em;
+}
+/* Reviews */
+
+#reviews-wrapper {
+    background-color: #ffffff;
+    padding-bottom: 4em;
+}
+
+#reviews-wrapper h2, #reviews-wrapper h4, #reviews-wrapper p {
+    color: black;
+}
+
+#reviews-cont {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 2em 0 0 0;
+}
+
+.reviews-block {
+}
+
+/* News */
+
+#request-wrapper {
+    background-color: #f4f4f4;
+    height: 30em;
+}
+
 /* Footer */
 
 #footer-wrapper {
@@ -282,7 +387,7 @@ button:hover {
 
 #footer-contact {
     display: flex;
-    padding: 2em 0;
+    padding: 3em 0;
 }
 
 #footer-contact h2 {

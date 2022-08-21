@@ -3,7 +3,7 @@
 // }
 
 function menuScroll() {
-    let menu = $('#menu')
+    let menu = $('#menu-wrapper')
     if (window.scrollY > 100) {
         menu.css('margin', '0em');
         menu.css('padding', '0.5em 2em 0.3em');
@@ -24,8 +24,16 @@ function menuScroll() {
 function menuHighlite() {
     if (window.scrollY > $('#intro').height() - 60) {
         $('#sub-nav1').css('background-color', 'rgba(238, 238, 238, 0.23)');
+        // $('#menu-wrapper').css('background-color', 'rgba(245, 245, 247, 0.8)');
+        // $('#menu a, #menu h1').css('color', 'black');
+        // $('#menu button').css('border-color', 'black');
+        // $('#menu button:hover').css('background-color', 'rgb(95 95 95 / 18%)');
     } else {
         $('#sub-nav1').css('background-color', '#ffffff00');
+        // $('#menu a, #menu h1').css('color', 'white');
+        // $('#menu button').css('border-color', 'white');
+
+
     }
 
     if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80) {
@@ -52,7 +60,7 @@ function menuHighlite() {
     //     $('#sub-nav4').css('background-color', '#ffffff00');
     // }
     //
-    if (window.scrollY > document.querySelector('body').offsetHeight - $('#footer-wrapper').height() -600) {
+    if (window.scrollY > document.querySelector('body').offsetHeight - $('#footer-wrapper').height() - 600) {
         $('#sub-nav1').css('background-color', '#ffffff00');
         $('#sub-nav2').css('background-color', '#ffffff00');
         $('#sub-nav3').css('background-color', '#ffffff00');
@@ -76,7 +84,7 @@ function aboutToFix() {
     let element = "#about-img";
     let c_element = "#about img";
     let pos_start = $(element).offset().top;
-    let pos_end = $('#intro').height() + $('#about-wrapper').height() - $('#about img').height() - 160 + 96;
+    let pos_end = $('#intro').height() + $('#about-wrapper').height() - $('#about img').height() - 160 + 53;
     if (window.scrollY < pos_start - 200) {
         element1.style.paddingTop = 200 + "px";
         element2.style.paddingTop = 200 + "px";
@@ -147,10 +155,24 @@ function navScroll() {
     });
 }
 
+function musicPlayPause(src, id) {
+    let radio = new Audio();
+    radio.src = src;
+    document.querySelector('.play1').onclick = function () {
+        if (radio.paused === true) {
+            radio.play();
+            document.getElementById(id).src = "pause.png";
+        } else {
+            radio.pause();
+            document.getElementById(id).src = "play-button-arrowhead.png";
+        }
+    }
+}
+
 $(window).scroll(function () {
     menuScroll();
     menuHighlite();
     aboutToFix();
     aboutScrollChange();
-    aboutDate()
+    aboutDate();
 });
