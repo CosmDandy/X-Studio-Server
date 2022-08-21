@@ -32,8 +32,6 @@ function menuHighlite() {
         $('#sub-nav1').css('background-color', '#ffffff00');
         // $('#menu a, #menu h1').css('color', 'white');
         // $('#menu button').css('border-color', 'white');
-
-
     }
 
     if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80) {
