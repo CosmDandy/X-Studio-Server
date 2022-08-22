@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="BD-Web-Project" />
     <orderEntry type="module" module-name="ProjectDB" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
 </module>

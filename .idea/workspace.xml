@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0">
-      <change afterPath="$PROJECT_DIR$/images/icons/pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/play-button-arrowhead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Гимн Калуги.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Дмитриков М.Г./Жду считаю (Дмитриков М.Г.).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Дмитриков М.Г./Фиолет (Дмитриков М.Г.).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Дороганич Максим/Рассвет (Дороганич Максим).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Дороганич Максим/Школа (Дороганич Максим).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Коллективы Народных инструментов/Девичьи заковырки (Оркестр Нар. Инст.).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Коллективы Народных инструментов/Извозщик (Ансамбль Н. И.ВиКо).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Коллективы Народных инструментов/Попури(Ансамбль Н. И. Каприс).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Лечу за Мечтой/Весёлый Ветерок.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Лечу за Мечтой/Ветром стать.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Лечу за Мечтой/Клятва ветра.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Лечу за Мечтой/Летний дождь.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Лечу за Мечтой/Лечу за мечтой.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Лечу за Мечтой/Мамины Руки.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Лечу за Мечтой/Метель.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Лечу за Мечтой/Опять зима.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Лечу за Мечтой/Сломано.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Лечу за Мечтой/Ты сказал мне люблю.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Слезы счастья(Духанин Алексей).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Сметанин Герман/Осенний блюз (Сметанин Герман).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Сметанин Герман/Снежная каралева (Сметанин Герман).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Тень (Кузнецов Е.В.).mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Юра-Ярослав.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/images/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Led_Zeppelin_-_Stairway_to_Heaven.mp3" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery/jQuery Library v3.5.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/X-Studio-Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/X-Studio-Server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_ru.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_ru.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nsx.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/play-button-arrowhead.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,25 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/roni/Documents/GitHub/X-Studio-Server&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/roni/Documents/GitHub/X-Studio-Server",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images/images" />
@@ -159,7 +126,7 @@
       <workItem from="1659222021288" duration="27329000" />
       <workItem from="1659783621885" duration="9859000" />
       <workItem from="1660481518376" duration="25972000" />
-      <workItem from="1661151244967" duration="9371000" />
+      <workItem from="1661151244967" duration="9787000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>

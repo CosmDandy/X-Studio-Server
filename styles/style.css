@@ -50,7 +50,7 @@ div, button, h1, h2, h3, a, p, :hover {
     background-color: #ef7aa6;
 }
 
-.canary:hover  {
+.canary:hover {
     background-color: #57E2E5;
 }
 
@@ -146,13 +146,13 @@ button:hover {
 
 @keyframes gradient {
     0% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
     50% {
         background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
 }
 
@@ -346,6 +346,7 @@ button:hover {
 .example-block {
     margin: 0 0 0 30em;
 }
+
 /* Reviews */
 
 #reviews-wrapper {

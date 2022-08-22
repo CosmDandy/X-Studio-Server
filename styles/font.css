@@ -55,7 +55,7 @@ p {
     padding: 1em 0;
 }
 
-#services a, #services h4, #services h2, #services p, #about h3, #reviews-wrapper h2, #reviews-wrapper h4, #reviews-wrapper p,  #news-wrapper h2, #news-wrapper h4, #news-wrapper p {
+#services a, #services h4, #services h2, #services p, #about h3, #reviews-wrapper h2, #reviews-wrapper h4, #reviews-wrapper p, #news-wrapper h2, #news-wrapper h4, #news-wrapper p {
     color: black;
 }
 
