@@ -19,11 +19,41 @@ function menuScroll() {
         menu.css('background-color', '#ffffff00');
         menu.css('backdrop-filter', 'None');
     }
+
+    if (window.scrollY > $('#intro').height()) {
+        menu.css('background-color', 'rgba(245, 245, 247, 0.8)');
+        menu.css('border-bottom', '0.1em solid rgb(0 0 0 / 60%)');
+        $('#butt').css('border', 'black solid 0.1em')
+        $('#menu h1').css('color', 'black')
+        $('#menu a').css('color', 'black')
+    } else {
+        menu.css('border-bottom', 'white solid 0.1em');
+        $('#butt').css('border', 'white solid 0.1em')
+        $('#menu h1').css('color', 'white')
+        $('#menu a').css('color', 'white')
+    }
+
+    if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80 + $('#services-wrapper').height() + 70 + $('#price-list').height() + 64) {
+        menu.css('background-color', 'rgb(95 95 95 / 50%)');
+        menu.css('border-bottom', 'white solid 0.1em');
+        $('#butt').css('border', 'white solid 0.1em')
+        $('#menu h1').css('color', 'white')
+        $('#menu a').css('color', 'white')
+    }
+
+    if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80 + $('#services-wrapper').height() + 70 + $('#price-list').height() + 64 + $('#example-wrapper').height() + 70) {
+        menu.css('background-color', 'rgba(245, 245, 247, 0.8)');
+        menu.css('border-bottom', '0.1em solid rgb(0 0 0 / 60%)');
+        $('#butt').css('border', 'black solid 0.1em')
+        $('#menu h1').css('color', 'black')
+        $('#menu a').css('color', 'black')
+    }
+
 }
 
 function menuHighlite() {
     if (window.scrollY > $('#intro').height() - 60) {
-        $('#sub-nav1').css('background-color', 'rgba(238, 238, 238, 0.23)');
+        $('#sub-nav1').css('background-color', 'rgb(162 162 162 / 25%)');
         // $('#menu-wrapper').css('background-color', 'rgba(245, 245, 247, 0.8)');
         // $('#menu a, #menu h1').css('color', 'black');
         // $('#menu button').css('border-color', 'black');
@@ -36,36 +66,47 @@ function menuHighlite() {
 
     if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80) {
         $('#sub-nav1').css('background-color', '#ffffff00');
-        $('#sub-nav2').css('background-color', 'rgba(238, 238, 238, 0.23)');
+        $('#sub-nav2').css('background-color', 'rgb(162 162 162 / 25%)');
     } else {
         $('#sub-nav2').css('background-color', '#ffffff00');
     }
 
-    // if (window.scrollY > 1700) {
-    //     $('#sub-nav1').css('background-color', '#ffffff00');
-    //     $('#sub-nav2').css('background-color', '#ffffff00');
-    //     $('#sub-nav3').css('background-color', 'rgba(238, 238, 238, 0.23)');
-    // } else {
-    //     $('#sub-nav3').css('background-color', '#ffffff00');
-    // }
-    //
-    // if (window.scrollY > 2000) {
-    //     $('#sub-nav1').css('background-color', '#ffffff00');
-    //     $('#sub-nav2').css('background-color', '#ffffff00');
-    //     $('#sub-nav3').css('background-color', '#ffffff00');
-    //     $('#sub-nav4').css('background-color', 'rgba(238, 238, 238, 0.23)');
-    // } else {
-    //     $('#sub-nav4').css('background-color', '#ffffff00');
-    // }
-    //
+    if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80 + $('#services-wrapper').height() + 70 + $('#price-list').height() + 64) {
+        $('#sub-nav1').css('background-color', '#ffffff00');
+        $('#sub-nav2').css('background-color', '#ffffff00');
+        $('#sub-nav3').css('background-color', 'rgb(162 162 162 / 25%)');
+    } else {
+        $('#sub-nav3').css('background-color', '#ffffff00');
+    }
+
+    if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80 + $('#services-wrapper').height() + 70 + $('#price-list').height() + 64 + $('#example-wrapper').height() + 70) {
+        $('#sub-nav1').css('background-color', '#ffffff00');
+        $('#sub-nav2').css('background-color', '#ffffff00');
+        $('#sub-nav3').css('background-color', '#ffffff00');
+        $('#sub-nav4').css('background-color', 'rgb(162 162 162 / 25%)');
+    } else {
+        $('#sub-nav4').css('background-color', '#ffffff00');
+    }
+
+    if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80 + $('#services-wrapper').height() + 70 + $('#price-list').height() + 64 + $('#example-wrapper').height() + 70 + $('#reviews-wrapper').height() + 64) {
+        $('#sub-nav1').css('background-color', '#ffffff00');
+        $('#sub-nav2').css('background-color', '#ffffff00');
+        $('#sub-nav3').css('background-color', '#ffffff00');
+        $('#sub-nav4').css('background-color', '#ffffff00');
+        $('#sub-nav5').css('background-color', 'rgb(162 162 162 / 25%)');
+    } else {
+        $('#sub-nav5').css('background-color', '#ffffff00');
+    }
+
     if (window.scrollY > document.querySelector('body').offsetHeight - $('#footer-wrapper').height() - 600) {
         $('#sub-nav1').css('background-color', '#ffffff00');
         $('#sub-nav2').css('background-color', '#ffffff00');
         $('#sub-nav3').css('background-color', '#ffffff00');
         $('#sub-nav4').css('background-color', '#ffffff00');
-        $('#sub-nav5').css('background-color', 'rgba(238, 238, 238, 0.23)');
-    } else {
         $('#sub-nav5').css('background-color', '#ffffff00');
+        $('#sub-nav6').css('background-color', '§');
+    } else {
+        $('#sub-nav6').css('background-color', '#ffffff00');
     }
 }
 
