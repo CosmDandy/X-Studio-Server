@@ -178,35 +178,35 @@ function aboutDate() {
     // document.getElementById('test').innerHTML = document.querySelector('body').offsetHeight - $('#footer-wrapper').height();
 }
 
-function navScroll() {
-    $('.navScroll a').on('click', function () {
+// function navScroll() {
+//     $('.navScroll a').on('click', function () {
+//
+//         let href = $(this).attr('href');
+//
+//         $('html, body').animate({
+//             scrollTop: $(href).offset().top
+//         }, {
+//             duration: 370,   // по умолчанию «400»
+//             easing: "linear" // по умолчанию «swing»
+//         });
+//
+//         return false;
+//     });
+// }
 
-        let href = $(this).attr('href');
-
-        $('html, body').animate({
-            scrollTop: $(href).offset().top
-        }, {
-            duration: 370,   // по умолчанию «400»
-            easing: "linear" // по умолчанию «swing»
-        });
-
-        return false;
-    });
-}
-
-function musicPlayPause(src, id) {
-    let radio = new Audio();
-    radio.src = src;
-    document.querySelector('.play1').onclick = function () {
-        if (radio.paused === true) {
-            radio.play();
-            document.getElementById(id).src = "pause.png";
-        } else {
-            radio.pause();
-            document.getElementById(id).src = "play-button-arrowhead.png";
-        }
-    }
-}
+// function musicPlayPause(src, id) {
+//     let radio = new Audio();
+//     radio.src = src;
+//     document.querySelector('.play1').onclick = function () {
+//         if (radio.paused === true) {
+//             radio.play();
+//             document.getElementById(id).src = "pause.png";
+//         } else {
+//             radio.pause();
+//             document.getElementById(id).src = "play-button-arrowhead.png";
+//         }
+//     }
+// }
 
 $(window).scroll(function () {
     menuScroll();
