@@ -63,7 +63,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(162 162 162 / 25%) !important;
+    background-color: rgb(175 175 175 / 40%) !important;
     /*background-color: rgba(238, 238, 238, 0.23) !important;*/
 }
 
@@ -83,18 +83,23 @@ button:hover {
 }
 
 #menu-wrapper {
-    height: 3em;
+    height: 4em;
     margin: 1.5em 2em;
-    padding: 0 1em 1em;
+    padding: 0 1em 1.5em;
     border-bottom: white solid 0.1em;
     transition: .3s all ease-out;
 }
 
 #menu {
+    height: inherit;
     padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+#menu #butt, #logo {
+    width: 11em !important;
 }
 
 #menu button {
@@ -104,16 +109,15 @@ button:hover {
 }
 
 #logo {
-    height: 3em !important;
-    width: 7.5em !important;
-    margin: 0 !important;
+    height: 4em !important;
     padding: 0 !important;
+    margin: auto 0 !important;
 }
 
 #logo h1 {
     padding: 0 0.15em;
     width: fit-content;
-    font-size: 4em;
+    font-size: 5em;
 }
 
 #logo:hover {
@@ -124,9 +128,13 @@ button:hover {
     margin: auto 0;
 }
 
+
 #butt {
+    margin: auto 0;
+}
+
+#butt-inner {
     border: white solid 0.1em;
-    width: 7.5em !important;
 }
 
 /* Intro */

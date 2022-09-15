@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/afe8551c-0d22-47db-bbd4-c54fee2eee9c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/afe8551c-0d22-47db-bbd4-c54fee2eee9c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,15 +63,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
+      <recent name="$USER_HOME$/ProjectDB/SQL" />
+      <recent name="$USER_HOME$/ProjectDB/photos" />
+=======
       <recent name="$PROJECT_DIR$/images/images" />
       <recent name="$PROJECT_DIR$/../../ProjectDB/SQL" />
       <recent name="$PROJECT_DIR$/../../ProjectDB/photos" />
+>>>>>>> new_design
       <recent name="$PROJECT_DIR$/images/icons" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="project.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/../../ProjectDB/project.sql" />
+      <script-file value="$USER_HOME$/ProjectDB/project.sql" />
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
@@ -125,6 +132,8 @@
       <workItem from="1659783621885" duration="9859000" />
       <workItem from="1660481518376" duration="25972000" />
       <workItem from="1661151244967" duration="10246000" />
+      <workItem from="1663154859730" duration="164000" />
+      <workItem from="1663216442835" duration="132000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>
@@ -195,8 +204,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/../BD-Web-Project" />
+<<<<<<< HEAD
+      <path value="$PROJECT_DIR$" />
+      <path value="$USER_HOME$/ProjectDB" />
+=======
       <path value="$PROJECT_DIR$/../../ProjectDB" />
       <path value="https:/github.com/CosmDandy/X-Studio-Server" />
+>>>>>>> new_design
     </ignored-roots>
     <MESSAGE value="0" />
     <option name="LAST_COMMIT_MESSAGE" value="0" />

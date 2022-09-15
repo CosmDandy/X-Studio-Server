@@ -6,29 +6,30 @@ function menuScroll() {
     let menu = $('#menu-wrapper')
     if (window.scrollY > 100) {
         menu.css('margin', '0em');
-        menu.css('padding', '0.5em 2em 0.3em');
+        menu.css('padding', '0.5em 2em');
     } else {
         menu.css('margin', '1.5em 2em');
-        menu.css('padding', '0em 1em 1em');
+        menu.css('padding', '0em 1em 1.5em');
     }
 
     if (window.scrollY > 250) {
-        menu.css('background-color', 'rgb(95 95 95 / 50%)');
-        menu.css('backdrop-filter', 'saturate(180%) blur(10px)');
+        // menu.css('background-color', 'rgb(95 95 95 / 50%)');
+        menu.css('backdrop-filter', 'saturate(100%) blur(15px)');
     } else {
         menu.css('background-color', '#ffffff00');
         menu.css('backdrop-filter', 'None');
     }
 
     if (window.scrollY > $('#intro').height()) {
-        menu.css('background-color', 'rgba(245, 245, 247, 0.8)');
+        menu.css('background-color', 'rgba(245, 245, 247, 0.5)');
         menu.css('border-bottom', '0.1em solid rgb(0 0 0 / 60%)');
-        $('#butt').css('border', 'black solid 0.1em')
+        $('#butt-inner').css('border', 'black solid 0.1em')
         $('#menu h1').css('color', 'black')
         $('#menu a').css('color', 'black')
     } else {
+        menu.css('background-color', '#ffffff00');
         menu.css('border-bottom', 'white solid 0.1em');
-        $('#butt').css('border', 'white solid 0.1em')
+        $('#butt-inner').css('border', 'white solid 0.1em')
         $('#menu h1').css('color', 'white')
         $('#menu a').css('color', 'white')
     }
@@ -36,15 +37,15 @@ function menuScroll() {
     if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80 + $('#services-wrapper').height() + 70 + $('#price-list').height() + 64) {
         menu.css('background-color', 'rgb(95 95 95 / 50%)');
         menu.css('border-bottom', 'white solid 0.1em');
-        $('#butt').css('border', 'white solid 0.1em')
+        $('#butt-inner').css('border', 'white solid 0.1em')
         $('#menu h1').css('color', 'white')
         $('#menu a').css('color', 'white')
     }
 
     if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80 + $('#services-wrapper').height() + 70 + $('#price-list').height() + 64 + $('#example-wrapper').height() + 70) {
-        menu.css('background-color', 'rgba(245, 245, 247, 0.8)');
+        menu.css('background-color', 'rgba(245, 245, 247, 0.5)');
         menu.css('border-bottom', '0.1em solid rgb(0 0 0 / 60%)');
-        $('#butt').css('border', 'black solid 0.1em')
+        $('#butt-inner').css('border', 'black solid 0.1em')
         $('#menu h1').css('color', 'black')
         $('#menu a').css('color', 'black')
     }
@@ -54,14 +55,14 @@ function menuScroll() {
 function menuHighlite() {
     if (window.scrollY > $('#intro').height() - 60) {
         $('#sub-nav1').css('background-color', 'rgb(162 162 162 / 25%)');
-        // $('#menu-wrapper').css('background-color', 'rgba(245, 245, 247, 0.8)');
+        // $('#menu-wrapper').css('background-color', 'rgba(245, 245, 247, 0.5)');
         // $('#menu a, #menu h1').css('color', 'black');
-        // $('#menu button').css('border-color', 'black');
-        // $('#menu button:hover').css('background-color', 'rgb(95 95 95 / 18%)');
+        // $('#menu butt-inneron').css('border-color', 'black');
+        // $('#menu butt-inneron:hover').css('background-color', 'rgb(95 95 95 / 18%)');
     } else {
         $('#sub-nav1').css('background-color', '#ffffff00');
         // $('#menu a, #menu h1').css('color', 'white');
-        // $('#menu button').css('border-color', 'white');
+        // $('#menu butt-inneron').css('border-color', 'white');
     }
 
     if (window.scrollY > $('#intro').height() + $('#about-wrapper').height() + 80) {
@@ -203,7 +204,7 @@ function aboutDate() {
 //             document.getElementById(id).src = "pause.png";
 //         } else {
 //             radio.pause();
-//             document.getElementById(id).src = "play-button-arrowhead.png";
+//             document.getElementById(id).src = "play-butt-inneron-arrowhead.png";
 //         }
 //     }
 // }
