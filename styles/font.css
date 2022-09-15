@@ -1,133 +1,62 @@
-/* Glasten */
-
-@font-face {
-    font-family: "Glasten";
-    src: url("../fonts/Glasten/galsten.otf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+h1, h2, h3, h4, h5, h6, a, p {
+    color: white;
+    text-decoration: none;
 }
 
-/* Ageo */
-
-@font-face {
-    font-family: "Ageo Basic";
-    src: url("../fonts/Ageo/AgeoPersonalUse.otf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+h1, h3 {
+    font-family: 'Gotham Bold', serif;
 }
 
-@font-face {
-    font-family: "Ageo Bold";
-    src: url("../fonts/Ageo/AgeoPersonalUse-Bold.otf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+h1 {
+    font-size: 6em;
 }
 
-@font-face {
-    font-family: "Ageo ExtraBold";
-    src: url("../fonts/Ageo/AgeoPersonalUse-ExtraBold.otf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+h2 {
+    width: 100%;
+    font-family: 'Gotham Black', serif;
+    font-size: 3em;
+    line-height: 1em;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    padding: 2em 0 0.5em;
 }
 
-@font-face {
-    font-family: "Ageo Heavy";
-    src: url("../fonts/Ageo/AgeoPersonalUse-Heavy.otf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+h3 {
+    font-size: 2em;
+    padding: 2em 0 0.5em;
 }
 
-@font-face {
-    font-family: "Ageo Light";
-    src: url("../fonts/Ageo/AgeoPersonalUse-Light.otf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+h4 {
+    font-size: 1.3em;
+    padding: 2em 0 0.5em;
 }
 
-@font-face {
-    font-family: "Ageo Medium";
-    src: url("../fonts/Ageo/AgeoPersonalUse-Medium.otf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+h5 {
+    font-size: 1.3em;
 }
 
-@font-face {
-    font-family: "Ageo SemiBold";
-    src: url("../fonts/Ageo/AgeoPersonalUse-SemiBold.otf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+h4, h5, h6 {
+    font-family: 'Gotham Light', serif;
 }
 
-@font-face {
-    font-family: "Ageo Thin";
-    src: url("../fonts/Ageo/AgeoPersonalUse-Thin.otf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+a, p {
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
 }
 
-/* SF Pro */
-
-@font-face {
-    font-family: "SF Black";
-    src: url("../fonts/SF Pro/SF-Pro-Text-Black.otf") format("truetype");
-    font-style: normal;
-    font-weight: 700;
+a {
+    font-family: 'Gotham XLight', serif;
+    font-size: 1em;
 }
 
-@font-face {
-    font-family: "SF Pro Bold";
-    src: url("../fonts/SF Pro/SF-Pro-Text-Bold.otf") format("truetype");
-    font-style: normal;
-    font-weight: 600;
+p {
+    font-family: 'Gotham XLight', serif;
+    font-size: 1em;
+    padding: 1em 0;
 }
 
-@font-face {
-    font-family: "SF Pro Heavy";
-    src: url("../fonts/SF Pro/SF-Pro-Text-Heavy.otf") format("truetype");
-    font-style: normal;
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "SF Pro Light";
-    src: url("../fonts/SF Pro/SF-Pro-Text-Light.otf") format("truetype");
-    font-style: normal;
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "SF Pro Medium";
-    src: url("../fonts/SF Pro/SF-Pro-Text-Medium.otf") format("truetype");
-    font-style: normal;
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "SF Pro Regular";
-    src: url("../fonts/SF Pro/SF-Pro-Text-Regular.otf") format("truetype");
-    font-style: normal;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "SF Pro Semibold";
-    src: url("../fonts/SF Pro/SF-Pro-Text-Semibold.otf") format("truetype");
-    font-style: normal;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "SF Pro Thin";
-    src: url("../fonts/SF Pro/SF-Pro-Text-Thin.otf") format("truetype");
-    font-style: normal;
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: "SF Pro Ultralight";
-    src: url("../fonts/SF Pro/SF-Pro-Text-Ultralight.otf") format("truetype");
-    font-style: normal;
-    font-weight: 300;
+#services a, #services h4, #services h2, #services p, #about h3, #reviews-wrapper h2, #reviews-wrapper h4, #reviews-wrapper p, #news-wrapper h2, #news-wrapper h4, #news-wrapper p {
+    color: black;
 }
 
 /* Gotham */

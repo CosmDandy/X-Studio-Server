@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c4f256-d97b-4197-b8e8-8f0bae797cf7" name="Changes" comment="0">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/afe8551c-0d22-47db-bbd4-c54fee2eee9c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/afe8551c-0d22-47db-bbd4-c54fee2eee9c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +45,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/roni/Documents/GitHub/X-Studio-Server&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -61,8 +63,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$USER_HOME$/ProjectDB/SQL" />
       <recent name="$USER_HOME$/ProjectDB/photos" />
+=======
+      <recent name="$PROJECT_DIR$/images/images" />
+      <recent name="$PROJECT_DIR$/../../ProjectDB/SQL" />
+      <recent name="$PROJECT_DIR$/../../ProjectDB/photos" />
+>>>>>>> new_design
       <recent name="$PROJECT_DIR$/images/icons" />
     </key>
   </component>
@@ -110,6 +118,22 @@
       <workItem from="1657186817059" duration="210000" />
       <workItem from="1657278433812" duration="29000" />
       <workItem from="1657720623873" duration="696000" />
+      <workItem from="1657721929317" duration="428000" />
+      <workItem from="1657811983909" duration="12246000" />
+      <workItem from="1657861511269" duration="3237000" />
+      <workItem from="1658089813640" duration="12004000" />
+      <workItem from="1658101864811" duration="5000" />
+      <workItem from="1658101897281" duration="663000" />
+      <workItem from="1658309076496" duration="7225000" />
+      <workItem from="1658768982852" duration="979000" />
+      <workItem from="1659207676720" duration="10788000" />
+      <workItem from="1659219813453" duration="1854000" />
+      <workItem from="1659222021288" duration="27329000" />
+      <workItem from="1659783621885" duration="9859000" />
+      <workItem from="1660481518376" duration="25972000" />
+      <workItem from="1661151244967" duration="10246000" />
+      <workItem from="1663154859730" duration="164000" />
+      <workItem from="1663216442835" duration="132000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1645479295104</created>
@@ -177,10 +201,16 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/../BD-Web-Project" />
+<<<<<<< HEAD
       <path value="$PROJECT_DIR$" />
       <path value="$USER_HOME$/ProjectDB" />
+=======
+      <path value="$PROJECT_DIR$/../../ProjectDB" />
+      <path value="https:/github.com/CosmDandy/X-Studio-Server" />
+>>>>>>> new_design
     </ignored-roots>
     <MESSAGE value="0" />
     <option name="LAST_COMMIT_MESSAGE" value="0" />

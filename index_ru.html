@@ -1,184 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>X Studio</title>
+    <title>X-studio V2</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="styles/font.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jQuery/jQuery%20Library%20v3.5.1.js"></script>
     <script src="scripts/script.js"></script>
 </head>
 <body>
 
-<!-- Header -->
-
-<div class="header animate-1">
-    <div class="wrapper-header">
-        <a href="#x-studio">
-            <div class="logo">
-                <img src="images/logo/X Design.png" alt="">
+<div id="header">
+    <div id="menu-wrapper">
+        <div id="menu" class="wrapper">
+            <button id="logo">
+                <h1>X</h1>
+            </button>
+            <div id="nav">
+                <button id="sub-nav1">
+                    <a href="index_ru.html#about">О студии</a>
+                </button>
+                <button id="sub-nav2">
+                    <a href="index_ru.html#services-wrapper">Запись</a>
+                </button>
+                <button id="sub-nav3">
+                    <a href="index_ru.html#example-wrapper">Примеры</a>
+                </button>
+                <button id="sub-nav4">
+                    <a href="index_ru.html#reviews-wrapper">Отзывы</a>
+                </button>
+                <button id="sub-nav5">
+                    <a href="index_ru.html#news-wrapper">Новости</a>
+                </button>
+                <button id="sub-nav6">
+                    <a href="index_ru.html#footer-wrapper">Контакты</a>
+                </button>
             </div>
-        </a>
-
-        <div class="menu">
-            <div class="submenu" id="sub-our-history">
-                <a href="#our-history">О студии</a>
-            </div>
-            <div class="submenu" id="sub-works">
-                <a href="#works">Запись</a>
-            </div>
-            <div class="submenu" id=" ">
-                <a href="#price">Расценки</a>
+            <div>
+                <button id="butt">
+                    <a id="test">Записаться</a>
+                </button>
+                <button>
+                    <a>RU</a>
+                </button>
             </div>
         </div>
     </div>
 </div>
-
 <!-- Intro -->
-
-<div id="x-studio"></div>
-<video loop muted autoplay class="bg-video">
-    <source src="#" type="video/mp4">
-</video>
-
-<div class="intro">
-    <div class="intro-content animate-2"></div>
-    <script type="text/javascript">
-        let intro = document.querySelector(".intro-content");
-        window.addEventListener("scroll", function () {
-            let value = window.scrollY;
-            intro.style.backgroundSize = 700 + value * 2 + "px";
-        })
-    </script>
-</div>
-
-<!-- Main our-history -->
-
-<div class="our-history">
-    <div id="our-history"></div>
+<div id="intro">
     <div class="wrapper">
-        <div class="our-history-main">
-            <div class="our-history-main-text">
-                <div class="our-history-main-text-h2">
-                    <h2>О студии</h2>
-                </div>
-                <div class="our-history-main-text-p">
-                    <p>Студия появилась в 1999 году в городе Калуга, за это время услугами студии воспользовались
-                        практически все калужские музыканты, муниципальные коллективы, рок-группы, оркестры, хоры,
-                        исполнители. Мы неоднократно удостаивались благодарностей со стороны правительства города и
-                        области. Оказывали спонсорскую помощь детским коллективам.
-                    </p>
-                </div>
+        <div id="company">
+            <div id="name">
+                <h1 style="font-size: 10em;">X</h1>
+                <h1 style="font-size: 6em;">-studio</h1>
             </div>
-        </div>
-
-        <!--        <div class="developers-says">-->
-        <!--            <div class="developers-says-h3">-->
-        <!--                <h3>Клиенты о нас:</h3>-->
-        <!--            </div>-->
-        <!--            <div class="developers-says-text">-->
-        <!--                <div class="developers-says-text-blocks">-->
-        <!--                    <div class="">-->
-        <!--                        <p>С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности-->
-        <!--                            представляет собой интересный эксперимент проверки направлений прогрессивного развития.</p>-->
-        <!--                    </div>-->
-        <!--                    <div class="developers-says-text-blocks2">-->
-        <!--                        <p>М. М. Анисимов, SEO</p>-->
-        <!--                    </div>-->
-
-        <!--                </div>-->
-
-        <!--                <div class="developers-says-text-blocks">-->
-        <!--                    <div class="">-->
-        <!--                        <p>Таким образом рамки и место обучения кадров способствует подготовки и реализации форм развития.-->
-        <!--                            Разнообразный и богатый опыт реализация намеченных плановых заданий в</p>-->
-        <!--                    </div>-->
-        <!--                    <div class="developers-says-text-blocks2">-->
-        <!--                        <p>Г. А. Беликов, JVM</p>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--                <div class="developers-says-text-blocks">-->
-        <!--                    <div class="developers-says-text-blocks1">-->
-        <!--                        <p>Повседневная практика показывает, что рамки и место обучения кадров позволяет выполнять важные-->
-        <!--                            задания по разработке соответствующий условий активизации.</p>-->
-        <!--                    </div>-->
-        <!--                    <div class="developers-says-text-blocks2">-->
-        <!--                        <p>В. Н. Зайцева, Final Cut Pro X</p>-->
-        <!--                    </div>-->
-
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-
-        <div class="box-main">
-            <div class="box-main-boxes">
-                <img src="images/images/DSC_0080.JPG" height="300">
-            </div>
-            <div class="box-main-boxes">
-                <img src="images/images/DSC_0078.JPG" height="300">
+            <div id="desc">
+                <h4>Лучшая студия звукозаписи<br> в Калуге и Калужской области</h4>
             </div>
         </div>
     </div>
+    <div id="grad"></div>
 </div>
-
-<!-- About us -->
-
-<div class="about-us">
-    <div id="works"></div>
-    <div class="wrapper">
-        <div class="main-title">
-            <div class="about-us-header-h2">
-                <h2>Наши услуги</h2>
+<!-- About -->
+<div id="about-wrapper">
+    <div class="wrapper" id="about">
+        <div class="about-desc">
+            <h2>О студии</h2>
+            <div class="about-cont" id="about-cont-1">
+                <h3>Лучшие в своем деле</h3>
+                <p>Наша студия предоставляет полный спектр услуг в сфере звукозаписи. Мы окажем содействия в
+                    привлечении сессионных музыкантов, аранжировщиков, репетиторов. А также вы можете получить
+                    бесплатные консультации, касающиеся всего процесса создания музыкального произведения.</p>
+            </div>
+            <div class="about-cont" id="about-cont-2">
+                <h3>Демократичная ценовая политика</h3>
+                <p>Нашу студию отличает от аналогичных прежде всего
+                    <mark><a class="under">демократичная ценовая политика</a></mark>
+                    (такого  соотношения цена/качество в ближайшей округе Вы просто не найдете),
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam architecto blanditiis
+                    ducimus illum, officiis perspiciatis provident veritatis. Ab aperiam aspernatur consequatur dolorem,
+                    ducimus error eveniet excepturi sapiente sint vel!
+                </p>
+            </div>
+            <div class="about-cont" id="about-cont-3">
+                <h3>Высокое качество выходного материала</h3>
+                <p>
+                    <mark><a class="under">высокое качество</a></mark>
+                    выходного материала, глубокое знание и
+                    <mark><a class="under"> ответственный подход</a></mark>
+                    к записи звука.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum itaque maxime mollitia odit
+                    suscipit! Ab accusamus dignissimos est officia officiis perspiciatis quidem reiciendis velit! Ab
+                    alias consectetur enim ipsa porro?
+                </p>
+            </div>
+            <div class="about-cont" id="about-cont-4">
+                <h3>Создаем шедевры уже
+                    <div id="date1"></div>
+                    года
+                </h3>
+                <p>Студия появилась в 1999 году в городе Калуга, за это время услугами студии воспользовались
+                    практически все калужские музыканты, муниципальные коллективы, рок-группы, оркестры, хоры,
+                    исполнители. Мы неоднократно удостаивались благодарностей со стороны правительства города и области.
+                    Оказывали спонсорскую помощь детским коллективам.</p>
             </div>
         </div>
-        <div class="about-us-main">
-            <div class="about-us-main-intro">
-                <div class="about-us-main-intro-h3">
-                    <h3>Лучшие в своем деле</h3>
-                </div>
-                <div class="about-us-main-intro-p">
-                    <p>Наша студия предоставляет полный спектр услуг в сфере звукозаписи. Мы окажем содействия в
-                        привлечении сессионных музыкантов, аранжировщиков, репетиторов. А также вы можете получить
-                        бесплатные консультации, касающиеся всего процесса создания музыкального произведения.</p>
-                </div>
-                <div class="about-us-main-intro-p">
-                    <p>Нашу студию отличает от аналогичных прежде всего
-                        <mark><a class="under">демократичная ценовая
-                            политика</a></mark>
-                        (такого
-                        сотношения цена/качество в ближайшей округе Вы просто не найдете),
-                        <mark><a class="under">высокое
-                            качество</a></mark>
-                        выходного
-                        материала, глубокое знание и
-                        <mark><a class="under"> ответственный подход</a></mark>
-                        к записи звука.
-                    </p>
-                </div>
-            </div>
-            <div class="about-us-main-img">
-                <img src="images/images/Intro.png" alt="">
-            </div>
+        <div id="about-img">
+            <img src="images/images/Intro.png" alt="Error 404">
         </div>
     </div>
 </div>
-
-
-<!-- Works -->
-<div class="works">
-    <div class="wrapper">
-        <div class="work-header">
-            <h3>Основные виды работ</h3>
-        </div>
-        <div class="work-main-text-1">
-            <div class="work-main-text-blocks">
-                <div class="work-main-text-img text-img">
-                    <img src="" alt="">
-                </div>
-                <div class="work-main-intro-h5">
-                    <h5>Запись голоса на фонограмму</h5>
-                </div>
-                <div class="work-main-intro-p">
+<!-- Services -->
+<div id="services-wrapper">
+    <div class="wrapper" id="services">
+        <h2>Основные виды работ</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid architecto, aut beatae debitis dolor
+            iusto labore nisi officia qui quibusdam quisquam temporibus totam? Architecto corporis quos tenetur.
+            Consequatur debitis deleniti dicta dolore enim error fuga illo ipsa ipsum magnam minima nisi omnis, quisquam
+            quod recusandae repudiandae vero. Consequuntur cum eos neque nulla optio quidem reprehenderit voluptatibus.
+            Error expedita, veniam?</p>
+        <div class="services-cont el2">
+            <div class="services-block red">
+                <img class="big-img" src="images/images/1.jpg" alt="Error 404">
+                <div class="services-desc">
+                    <h4>Запись голоса на фонограмму</h4>
                     <p>Исполнитель делает несколько дублей из которых потом отбираются лучшие фрагменты и склеиваются в
                         один трек.<br>
                         <br>После этого по желанию исполнителя делается ручная коррекция интонации и ритмики.
@@ -186,16 +132,16 @@
                         звучали органично и целостно.<br>
                         <br>Далее следуют мастеринговые обработки микса, после которых вы
                         получаете хорошо звучащий продукт соответствующий современным требованиям.</p>
+                    <div class="services-price" onclick="location.href = 'index_ru.html#price-list-anchor'">
+                        <p>Стоимость</p>
+                        <p>от 5000Р</p>
+                    </div>
                 </div>
             </div>
-            <div class="work-main-text-blocks">
-                <div class="work-main-text-img text-img">
-                    <img src="" alt="">
-                </div>
-                <div class="work-main-intro-h5">
-                    <h5>Сведение</h5>
-                </div>
-                <div class="work-main-intro-p">
+            <div class="services-block blue">
+                <img class="big-img" src="images/images/1.jpg" alt="Error 404">
+                <div class="services-desc">
+                    <h4>Сведение</h4>
                     <p>Это один из самых важных этапов создания музыкального продукта, требующий большого объёма знаний,
                         мастерства и опыта, а также современного профессионального оборудования и специально
                         подготовленного помещения.<br>
@@ -205,18 +151,18 @@
                         художественно-творческого подхода.<br>
                         <br>То, насколько хорошо будет звучать ваш музыкальный продукт
                         полностью зависит от этапа сведения.</p>
+                    <div class="services-price" onclick="location.href = 'index_ru.html#price-list-anchor'">
+                        <p>Стоимость</p>
+                        <p>от 5000Р</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="work-main-text-2">
-            <div class="work-main-text-blocks">
-                <div class="work-main-text-img">
-                    <img src="" alt="">
-                </div>
-                <div class="work-main-intro-h5">
-                    <h5>Потрековая запись</h5>
-                </div>
-                <div class="work-main-intro-p">
+        <div class="services-cont el3">
+            <div class="services-block yellow">
+                <img class="medium-img" src="images/images/1.jpg" alt="Error 404">
+                <div class="services-desc">
+                    <h4>Потрековая запись</h4>
                     <p>Потрековая запись позволяет одновременно (или по очереди) записывать как один источник звука, так
                         и несколько. Например, ансамбль, хор, оркестр или одного исполнителя. Запись инструментов на
                         разные дорожки даёт возможность обрабатывать каждый трек отдельно, добиваясь максимально
@@ -226,16 +172,16 @@
                         также многое другое.<br>
                         <br>Для исполнителя это самый ответственный этап, определяющий успех
                         записываемого музыкального произведения.</p>
+                    <div class="services-price" onclick="location.href = 'index_ru.html#price-list-anchor'">
+                        <p>Стоимость</p>
+                        <p>от 1500Р</p>
+                    </div>
                 </div>
             </div>
-            <div class="work-main-text-blocks">
-                <div class="work-main-text-img">
-                    <img src="" alt="">
-                </div>
-                <div class="work-main-intro-h5">
-                    <h5>Запись коллектива в реальном времени</h5>
-                </div>
-                <div class="work-main-intro-p">
+            <div class="services-block green">
+                <img class="medium-img" src="images/images/1.jpg" alt="Error 404">
+                <div class="services-desc">
+                    <h4>Запись коллектива в реальном времени</h4>
                     <p>Предлагается два варианта:<br>
                         <br>Вариант многоканальной записи с последующим сведением и мастерингом.<br>
                         <br>И вариант записи сразу на стерео трек с предварительной отстройкой звука.<br>
@@ -243,16 +189,16 @@
                         Приблизительно за 16 часов (две смены по 8 часов) можно записать целый альбом и получить
                         приличную демо запись.
                     </p>
+                    <div class="services-price" onclick="location.href = 'index_ru.html#price-list-anchor'">
+                        <p>Стоимость</p>
+                        <p>1000Р</p>
+                    </div>
                 </div>
             </div>
-            <div class="work-main-text-blocks">
-                <div class="work-main-text-img">
-                    <img src="" alt="">
-                </div>
-                <div class="work-main-intro-h5">
-                    <h5>Мастеринг</h5>
-                </div>
-                <div class="work-main-intro-p">
+            <div class="services-block orange">
+                <img class="medium-img" src="images/images/1.jpg" alt="Error 404">
+                <div class="services-desc">
+                    <h4>Мастеринг</h4>
                     <p>Мастеринг - это то, что придает глубину, мощь, четкость и объем вашим трекам.<br>
                         <br>
                         Мастеринг звукозаписей — процесс подготовки и переноса записанной и сведённой фонограммы на
@@ -262,200 +208,283 @@
                         звуковоспроизводящими аудиомониторами. Мастерингом занимаются звукорежиссёры обладающие
                         специфическими навыками и опытом, которых принято называть инженерами мастеринга
                     </p>
+                    <div class="services-price" onclick="location.href = 'index_ru.html#price-list-anchor'">
+                        <p>Стоимость</p>
+                        <p>1000Р</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-cont el3">
+            <div class="services-block crayola">
+                <img class="medium-img" src="images/images/1.jpg" alt="Error 404">
+                <div class="services-desc">
+                    <h4>Потрековая запись</h4>
+                    <p>Потрековая запись позволяет одновременно (или по очереди) записывать как один источник звука, так
+                        и несколько. Например, ансамбль, хор, оркестр или одного исполнителя. Запись инструментов на
+                        разные дорожки даёт возможность обрабатывать каждый трек отдельно, добиваясь максимально
+                        качественного желаемого результата.<br>
+                        <br>На этом этапе определяется саунд будущей композиции, форма
+                        произведения, идет выверение аранжировки, оттачиваются нюансы исполнительства музыкантов, а
+                        также многое другое.<br>
+                        <br>Для исполнителя это самый ответственный этап, определяющий успех
+                        записываемого музыкального произведения.</p>
+                    <div class="services-price" onclick="location.href = 'index_ru.html#price-list-anchor'">
+                        <p>Стоимость</p>
+                        <p>1000Р</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services-block pink">
+                <img class="medium-img" src="images/images/1.jpg" alt="Error 404">
+                <div class="services-desc">
+                    <h4>Запись коллектива в реальном времени</h4>
+                    <p>Предлагается два варианта:<br>
+                        <br>Вариант многоканальной записи с последующим сведением и мастерингом.<br>
+                        <br>И вариант записи сразу на стерео трек с предварительной отстройкой звука.<br>
+                        <br>Этот способ позволяет за небольшие деньги записать большой объём музыкального материала.
+                        Приблизительно за 16 часов (две смены по 8 часов) можно записать целый альбом и получить
+                        приличную демо запись.
+                    </p>
+                    <div class="services-price" onclick="location.href = 'index_ru.html#price-list-anchor'">
+                        <p>Стоимость</p>
+                        <p>1000Р</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services-block canary">
+                <img class="medium-img" src="images/images/1.jpg" alt="Error 404">
+                <div class="services-desc">
+                    <h4>Мастеринг</h4>
+                    <p>Мастеринг - это то, что придает глубину, мощь, четкость и объем вашим трекам.<br>
+                        <br>
+                        Мастеринг звукозаписей — процесс подготовки и переноса записанной и сведённой фонограммы на
+                        какой-либо носитель для последующего тиражирования.<br>
+                        <br>
+                        Мастеринг проводится в специально созданной для этого контрольной комнате, оснащённой эталонными
+                        звуковоспроизводящими аудиомониторами. Мастерингом занимаются звукорежиссёры обладающие
+                        специфическими навыками и опытом, которых принято называть инженерами мастеринга
+                    </p>
+                    <div class="services-price" onclick="location.href = 'index_ru.html#price-list-anchor'">
+                        <p>Стоимость</p>
+                        <p>1000Р</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<!-- Price List-->
+<div id="price-list">
+    <div id="price-list-anchor"></div>
+    <h5><a href="index_ru.html">С полным перечнем услуг студии вы можете ознакомиться скачав <strong>Прайс лист</strong></a>
+    </h5>
+</div>
+<!-- Example -->
+<div id="example-wrapper">
+    <div id="example" class="wrapper">
+        <h2>Примеры работ</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi magni officia quae quidem voluptatibus!
+            Ducimus enim eum expedita explicabo, iusto laborum maxime nisi perferendis, quisquam, ratione repellat sit
+            totam voluptatum.</p>
+        <div class="example-block">
+            <h3>Альбом "Лечу за Мечтой"(Кондрашин И.В. Тарба А.Л.)</h3>
+            <div class="example-track">
+                <p>Весёлый Ветерок</p>
+                <audio controls src="music/Лечу за Мечтой/Весёлый Ветерок.mp3"></audio>
+                <p>Ветром стать</p>
+                <audio controls src="music/Лечу за Мечтой/Ветром стать.mp3"></audio>
+                <p>Клятва ветра</p>
+                <audio controls src="music/Лечу за Мечтой/Клятва ветра.mp3"></audio>
+                <p>Летний дождь</p>
+                <audio controls src="music/Лечу за Мечтой/Летний дождь.mp3"></audio>
+                <p>Лечу за мечтой</p>
+                <audio controls src="music/Лечу за Мечтой/Лечу за мечтой.mp3"></audio>
+                <p>Метель</p>
+                <audio controls src="music/Лечу за Мечтой/Метель.mp3"></audio>
+                <p>Опять зима</p>
+                <audio controls src="music/Лечу за Мечтой/Опять зима.mp3"></audio>
+                <p>Сломано</p>
+                <audio controls src="music/Лечу за Мечтой/Сломано.mp3"></audio>
+                <p>Ты сказал мне люблю</p>
+                <audio controls src="music/Лечу за Мечтой/Ты сказал мне люблю.mp3"></audio>
+            </div>
+        </div>
+        <div class="example-block">
+            <h3>Дмитриков М.Г.</h3>
+            <div class="example-track">
+                <p>Жду считаю (Дмитриков М.Г.)</p>
+                <audio controls src="music/Дмитриков М.Г./Жду считаю (Дмитриков М.Г.).mp3"></audio>
+                <p>Фиолет (Дмитриков М.Г.)</p>
+                <audio controls src="music/Дмитриков М.Г./Фиолет (Дмитриков М.Г.).mp3"></audio>
+            </div>
+        </div>
+        <div class="example-block">
+            <h3>Дороганич Максим</h3>
+            <div class="example-track">
+                <p>Рассвет (Дороганич Максим)</p>
+                <audio controls src="music/Дороганич Максим/Рассвет (Дороганич Максим).mp3"></audio>
+                <p>Школа (Дороганич Максим)</p>
+                <audio controls src="music/Дороганич Максим/Школа (Дороганич Максим).mp3"></audio>
+            </div>
+        </div>
+        <div class="example-block">
+            <h3>Коллективы Народных инструментов</h3>
+            <div class="example-track">
+                <p>Девичьи заковырки (Оркестр Нар. Инст.)</p>
+                <audio controls
+                       src="music/Коллективы Народных инструментов/Девичьи заковырки (Оркестр Нар. Инст.).mp3"></audio>
+                <p>Извозщик (Ансамбль Н. И.ВиКо)</p>
+                <audio controls src="music/Коллективы Народных инструментов/Извозщик (Ансамбль Н. И.ВиКо).mp3"></audio>
+                <p>Попури (Ансамбль Н. И. Каприс)</p>
+                <audio controls src="music/Коллективы Народных инструментов/Попури(Ансамбль Н. И. Каприс).mp3"></audio>
+            </div>
+        </div>
+        <div class="example-block">
+            <h3>Сметанин Герман</h3>
+            <div class="example-track">
+                <p>Осенний блюз (Сметанин Герман)</p>
+                <audio controls src="music/Сметанин Герман/Осенний блюз (Сметанин Герман).mp3"></audio>
+                <p>Снежная каралева (Сметанин Герман)</p>
+                <audio controls src="music/Сметанин Герман/Снежная каралева (Сметанин Герман).mp3"></audio>
+            </div>
+        </div>
+        <div class="example-block">
+            <h3>Гимн Калуги</h3>
+            <div class="example-track">
+                <audio controls src="music/Гимн Калуги.mp3"></audio>
+            </div>
+        </div>
+        <div class="example-block">
+            <h3>Слезы счастья(Духанин Алексей)</h3>
+            <div class="example-track">
+                <audio controls src="music/Слезы счастья(Духанин Алексей).mp3"></audio>
+            </div>
+        </div>
+        <div class="example-block">
+            <h3>Тень (Кузнецов Е.В.)</h3>
+            <div class="example-track">
+                <audio controls src="music/Тень (Кузнецов Е.В.).mp3"></audio>
+            </div>
+        </div>
+        <div class="example-block">
+            <h3>Юра-Ярослав.mp3</h3>
+            <div class="example-track">
+                <audio controls src="music/Юра-Ярослав.mp3"></audio>
+            </div>
+        </div>
+    </div>
+    <!--    <button class="play1" onclick="musicPlayPause('Led_Zeppelin_-_Stairway_to_Heaven.mp3', 'play-1')">-->
+    <!--        <img id="play-1" src="play-button-arrowhead.png">-->
+    <!--        <audio preload="auto" src="Led_Zeppelin_-_Stairway_to_Heaven.mp3"></audio>-->
+    <!--    </button>-->
+    <!--    <button class="play2" onclick="musicPlayPause('Led_Zeppelin_-_Stairway_to_Heaven.mp3', 'play-2')">-->
+    <!--        <img id="play2" src="play-button-arrowhead.png">-->
+    <!--        <audio preload="auto" src="Led_Zeppelin_-_Stairway_to_Heaven.mp3"></audio>-->
+    <!--    </button>-->
 </div>
 <!-- Price -->
-<div class="pr">
-    <div id="price"></div>
-    <div class="wrapper">
-        <div class="pr-header">
-            <h2>Стоимость работ</h2>
-        </div>
-        <div class="pr-content">
-
-            <div class="pr-content-block">
-                <div class="pr-content-h">
-                    <h3></h3>
+<div id="reviews-wrapper">
+    <div id="reviews" class="wrapper">
+        <h2>Клиенты о нас</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, non, voluptas? At excepturi expedita, explicabo
+            ipsa laborum, nihil nulla perferendis ratione repellendus sit, vitae voluptates. Ad, aliquam consequuntur
+            dolorem eaque earum esse eveniet fuga illo incidunt inventore labore neque numquam odit omnis quisquam quo
+            quos reprehenderit soluta temporibus velit veritatis voluptas voluptatem voluptatibus. Dolorem ea ipsa magni
+            sapiente soluta voluptate?</p>
+        <div id="reviews-cont">
+            <div class="reviews-block">
+                <div class="reviews-bio">
+                    <h4>Lorem ipsum dolor.</h4>
+                    <p>Lorem ipsum dolor.</p>
                 </div>
-                <div class="pr-content-d">
-                    <h3>Что входит в стоимость</h3>
-                </div>
-                <div class="pr-content-p">
-                    <h3>Стоимость</h3>
-                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, consequatur eius fugit impedit
+                    ipsum officia sit voluptate voluptatem. Accusantium assumenda atque aut eligendi eveniet facilis
+                    minima nostrum porro reprehenderit, sapiente, sit vitae voluptates voluptatibus voluptatum?</p>
             </div>
-            <div class="pr-content-block">
-                <div class="pr-content-h pr-content-d">
-                    <h3>Запись голос на фонограмму заказчика<br></h3>
-                    <br>
-                    <p>(Одна песня)</p>
+            <div class="reviews-block">
+                <div class="reviews-bio">
+                    <h4>Lorem ipsum dolor.</h4>
+                    <p>Lorem ipsum dolor.</p>
                 </div>
-                <div class="pr-content-d">
-                    <p>
-                        Запись голоса.<br>
-                        <br>Прослушивание записанного материала, отбор лучших фрагментов, компоновка в один трек.<br>
-                        <br>Тюнинг вокала (Ручная коррекция высоты тона и ритмики).<br>
-                        <br>Динамическая и художественная обработка.<br>
-                        <br>Сведение обработанного вокального трека и фонограммы.<br>
-                        <br>Мастеринг трека.</p>
-                </div>
-                <div class="pr-content-p">
-                    <p>Одна дорожка - 5000₽</p>
-                    <br>
-                    <p>Две дорожки и более - от 7000₽</p>
-                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, consequatur eius fugit impedit
+                    ipsum officia sit voluptate voluptatem. Accusantium assumenda atque aut eligendi eveniet facilis
+                    minima nostrum porro reprehenderit, sapiente, sit vitae voluptates voluptatibus voluptatum?</p>
             </div>
-            <div class="pr-content-block">
-                <div class="pr-content-h">
-                    <h3>Тюнинг вокала</h3>
+            <div class="reviews-block">
+                <div class="reviews-bio">
+                    <h4>Lorem ipsum dolor.</h4>
+                    <p>Lorem ipsum dolor.</p>
                 </div>
-                <div class="pr-content-d">
-                    <p>Тюнинг вокала (Ручная коррекция высоты тона и ритмики).</p>
-                </div>
-                <div class="pr-content-p">
-                    <p>Одна дорожка - 2000₽</p>
-                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, consequatur eius fugit impedit
+                    ipsum officia sit voluptate voluptatem. Accusantium assumenda atque aut eligendi eveniet facilis
+                    minima nostrum porro reprehenderit, sapiente, sit vitae voluptates voluptatibus voluptatum?</p>
             </div>
-            <div class="pr-content-block">
-                <div class="pr-content-h">
-                    <h3>По часовая оплата</h3>
+            <div class="reviews-block">
+                <div class="reviews-bio">
+                    <h4>Lorem ipsum dolor.</h4>
+                    <p>Lorem ipsum dolor.</p>
                 </div>
-                <div class="pr-content-d">
-                    <p>
-                        Запись голоса<br>
-                        <br>Запись инструментов<br>
-                        <br>Многоканальная запись коллективов<br>
-                    </p>
-                </div>
-                <div class="pr-content-p">
-                    <p>1ч. - 1500₽<br>
-                        2ч. - 2500₽<br>
-                        3ч. - 3500₽<br>
-                        4ч. - 4500₽<br>
-                        5ч. - 5500₽<br>
-                        6ч. - 6500₽<br>
-                        7ч. - 7500₽<br>
-                        8ч. - 8500₽</p>
-                </div>
-            </div>
-            <div class="pr-content-block">
-                <div class="pr-content-h">
-                    <h3>Сведение</h3>
-                </div>
-                <div class="pr-content-d">
-                    <p>
-                        2-6 дорожек в проекте.<br>
-                        <br>7-20 дорожек в проекте.<br>
-                        <br>21-35 дорожек в проекте.<br>
-                        <br>36-50 дорожек в проекте.<br>
-                        <br>51-65 дорожек в проекте.<br>
-                        <br>66-80 дорожек в проекте.<br>
-                        <br>81 и больше.
-                    </p>
-                </div>
-                <div class="pr-content-p">
-                    <p>
-                        5000 ₽<br>
-                        <br>10000₽<br>
-                        <br>15000₽<br>
-                        <br>20000₽<br>
-                        <br>25000₽<br>
-                        <br>30000₽<br>
-                        <br>35000₽
-                    </p>
-                </div>
-            </div>
-            <div class="pr-content-block">
-                <div class="pr-content-h">
-                    <h3>Мастеринг</h3>
-                </div>
-                <div class="pr-content-d">
-                    <p>
-                        Финальная обработка записанной и сведённой фонограммы.<br>
-                        <br>Подготовка для последующего тиражирования
-                    </p>
-                </div>
-                <div class="pr-content-p">
-                    <p>
-                        Один трек - 2000₽<br>
-                        <br>Альбом - 1800₽ (За один трек)
-                    </p>
-                </div>
-            </div>
-            <div class="pr-content-block">
-                <div class="pr-content-h pr-content-d">
-                    <h3>Изготовление аранжировки<br></h3>
-                    <br>
-                    <p>(Запись вокала не входит)</p>
-                </div>
-                <div class="pr-content-d">
-                    <p>
-                        Написание партитур инструментовки.<br>
-                        <br>Потрековая запись инструментов.<br>
-                        <br>Постобработка инструментов.<br>
-                        <br>Микширование инструментов.<br>
-                        <br>Саунд-продюсирование инструментов.<br>
-                        <br>Сведение инструментов.<br>
-                        <br>Мастеринг мастер копии.
-                    </p>
-                </div>
-                <div class="pr-content-p">
-                    <p>От 30000₽</p>
-                </div>
-            </div>
-            <div class="pr-content-block" style="border: none;">
-                <div class="pr-content-h">
-                    <h3>Сессионная работа</h3>
-                </div>
-                <div class="pr-content-d">
-                    <p>Привлечение профессиональных музыкантов для записи акустических и электронных инструментов.</p>
-                </div>
-                <div class="pr-content-p">
-                    <p>Оплата музыканта<br>
-                        (1 смена, 1 инструмент.) - 5000 ₽<br>
-                        +
-                        <br>Студия - 3000₽<br>
-                        =
-                        <br>8000₽
-                    </p>
-                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, consequatur eius fugit impedit
+                    ipsum officia sit voluptate voluptatem. Accusantium assumenda atque aut eligendi eveniet facilis
+                    minima nostrum porro reprehenderit, sapiente, sit vitae voluptates voluptatibus voluptatum?</p>
             </div>
         </div>
     </div>
 </div>
-<div class="footer">
-    <div class="wrapper">
-        <div class="footer-main">
-            <div class="footer-main-text">
-                <div class="footer-main-text-social">
-                    <div class="social">
-                        <img src="images/icons/facebook-social-logo.png">
-                    </div>
-                    <div class="social">
-                        <img src="images/icons/vk-social-logotype.png">
-                    </div>
-                    <div class="social">
-                        <img src="images/icons/telegram.png">
-                    </div>
-                    <div class="social">
-                        <img src="images/icons/envelope.png">
-                    </div>
+<!-- News -->
+<div id="news-wrapper">
+    <div id="news" class="wrapper">
+        <h2>Новости</h2>
+        <div class="news-block">
+            <img src="images/images/DSC_0080.JPG" alt="Error 404">
+            <p>6-го Сентября 2022</p>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+        </div>
+        <div class="news-block">
+            <img src="images/images/DSC_0078.JPG" alt="Error 404">
+            <p>20-го Сентября 2022</p>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<div id="footer-wrapper">
+    <div class="wrapper" id="footer">
+        <div id="footer-contact">
+            <h2>Контакты</h2>
+            <div id="footer-contact-desc">
+                <div class="contacts" id="footer-tel">
+                    <h5>Телефон:</h5>
+                    <a>Кондрашин Игорь Викторович<br>7 (953) 311-24-80</a>
                 </div>
-                <div class="footer-main-lang">
-                    <img src="images/icons/translate.png">
-                    <p>Русский</p>
+                <div class="contacts" id="footer-adr">
+                    <h5>Адрес:</h5>
+                    <a>Калуга, ул. Болдина, 65, под. 3</a>
+                </div>
+                <div class="contacts" id="footer-email">
+                    <h5>Почта:</h5>
+                    <a>tkondrashin@icloud.com</a>
+                </div>
+                <div class="contacts" id="footer-social">
+                    <h5>Соцсети:</h5>
+                    <div>
+                        <a>Telegram</a>
+                        <a>Vk</a>
+                        <a href="https://xn----htbm8afgk0g.xn--h1ahn.xn--p1acf/">х-студия.мир.рус</a>
+                    </div>
                 </div>
             </div>
-            <div class="copyright">
-                <div class="copyright-content">
-                    <p>Copyright © 1999-2022 X-Studio</p>
-                </div>
-                <div class="copyright-content">
-                    <p>Developed by CosmDandy</p>
-                </div>
+        </div>
+        <div id="footer-desc">
+            <div id="footer-logo">
+                <h1 style="font-size: 3em;">X</h1>
+                <h1 style="font-size: 2em;">-studio</h1>
+            </div>
+            <div id="footer-copyright">
+                <a>Copyright © 1999-
+                    <div id="date2"></div>
+                    X-Studio</a>
             </div>
         </div>
     </div>
