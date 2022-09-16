@@ -26,13 +26,12 @@ button {
     border-radius: 50em;
     padding: 0.5em;
     border: none;
-    outline: none;
+    outline: rgba(255, 255, 255, 0) 2px solid;
     background: none;
 }
 
 button:hover {
-    background-color: rgb(175 175 175 / 40%) !important;
-    /*background-color: rgba(238, 238, 238, 0.23) !important;*/
+    outline: #ffffff 2px solid;
 }
 
 .wrapper {
@@ -52,8 +51,8 @@ button:hover {
 
 #menu-wrapper {
     height: 4em;
-    margin: 1.5em 2em;
-    padding: 0 1em 1.5em;
+    margin: 1em 2em;
+    padding: 0 1em 1em;
     border-bottom: white solid 0.1em;
     transition: .3s all ease-out;
 }
@@ -67,7 +66,7 @@ button:hover {
 }
 
 #menu #butt, #logo {
-    width: 11em !important;
+    width: 7em !important;
 }
 
 #menu button {
@@ -111,7 +110,7 @@ button:hover {
     height: 115vh;
     max-height: 70em;
     padding: 7em 3em 0;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(to right, #fc354c, #03ccc9);
     background-size: 200% 200%;
     animation: gradient 10s ease infinite;
 }
@@ -181,7 +180,7 @@ button:hover {
     margin: 1em 0;
     -webkit-background-clip: text;
     color: transparent;
-    background-image: linear-gradient(230deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-image: linear-gradient(to right, #fc354c, #03ccc9);;
     background-size: 200% 200%;
     animation: gradient 10s ease infinite;
 }
@@ -308,7 +307,7 @@ button:hover {
     position: relative;
     padding: 2em 1em;
     text-align: center;
-    background: linear-gradient(90deg, #48a4f7, #bc42ab);
+    background: linear-gradient(to right, #fc354c, #03ccc9);;
 }
 
 #price-list a:hover {

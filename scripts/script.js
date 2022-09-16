@@ -8,12 +8,12 @@ function menuScroll() {
         menu.css('margin', '0em');
         menu.css('padding', '0.5em 2em');
     } else {
-        menu.css('margin', '1.5em 2em');
-        menu.css('padding', '0em 1em 1.5em');
+        menu.css('margin', '1em 2em');
+        menu.css('padding', '0em 1em 1em');
     }
 
     if (window.scrollY > 250) {
-        // menu.css('background-color', 'rgb(95 95 95 / 50%)');
+        menu.css('background-color', 'rgb(95 95 95 / 50%)');
         menu.css('backdrop-filter', 'saturate(100%) blur(15px)');
     } else {
         menu.css('background-color', '#ffffff00');
@@ -176,7 +176,6 @@ function aboutDate() {
     let year = date.getFullYear();
     document.getElementById('date1').innerHTML = year - 1999;
     document.getElementById('date2').innerHTML = year;
-    // document.getElementById('test').innerHTML = document.querySelector('body').offsetHeight - $('#footer-wrapper').height();
 }
 
 // function navScroll() {
@@ -216,3 +215,5 @@ $(window).scroll(function () {
     aboutScrollChange();
     aboutDate();
 });
+
+// document.getElementById('test').innerHTML = document.querySelector('body').offsetHeight - $('#footer-wrapper').height();
