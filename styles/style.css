@@ -22,16 +22,20 @@ div, button, h1, h2, h3, a, p, :hover {
     transition: .3s all ease-out;
 }
 
+:root {
+    --theme-color: white;
+}
+
 button {
     border-radius: 50em;
     padding: 0.5em;
     border: none;
-    outline: rgba(255, 255, 255, 0) 2px solid;
+    outline: #ffffff00 2px solid;
     background: none;
 }
 
 button:hover {
-    outline: #ffffff 2px solid;
+    outline: var(--theme-color) solid 0.2em !important;
 }
 
 .wrapper {
@@ -49,12 +53,13 @@ button:hover {
     top: 0;
 }
 
+/* Menu */
+
 #menu-wrapper {
     height: 4em;
     margin: 1em 2em;
     padding: 0 1em 1em;
-    border-bottom: white solid 0.1em;
-    transition: .3s all ease-out;
+    border-bottom: #ffffff solid 0.1em;
 }
 
 #menu {
@@ -65,20 +70,23 @@ button:hover {
     align-items: flex-start;
 }
 
-#menu #butt, #logo {
-    width: 7em !important;
+#butt, #logo {
+    width: 7.5em !important;
+}
+
+#menu h1, #menu a {
+    color: var(--theme-color);
 }
 
 #menu button {
-    height: fit-content;
-    width: fit-content;
-    margin: 0.5em 0;
+    margin: 0.2em;
 }
 
 #logo {
     height: 4em !important;
     padding: 0 !important;
     margin: auto 0 !important;
+    outline: none !important;
 }
 
 #logo h1 {
@@ -88,7 +96,7 @@ button:hover {
 }
 
 #logo:hover {
-    background: none !important;
+    opacity: 0.7;
 }
 
 #nav {
@@ -97,11 +105,17 @@ button:hover {
 
 
 #butt {
+    display: flex;
+    justify-content: space-between;
     margin: auto 0;
 }
 
 #butt-inner {
-    border: white solid 0.1em;
+    outline: var(--theme-color) solid 0.2em;
+}
+
+#butt-inner:hover {
+    padding: 0.7em;
 }
 
 /* Intro */
@@ -161,7 +175,7 @@ button:hover {
 
 #about-wrapper {
     padding-bottom: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
 }
 
 #grad {
