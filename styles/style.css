@@ -22,38 +22,6 @@ div, button, h1, h2, h3, a, p, :hover {
     transition: .3s all ease-out;
 }
 
-.red:hover {
-    background-color: #e84c3e
-}
-
-.blue:hover {
-    background-color: #0794b8
-}
-
-.yellow:hover {
-    background-color: #f1dd0a
-}
-
-.orange:hover {
-    background-color: #e8713d
-}
-
-.green:hover {
-    background-color: #40b872
-}
-
-.crayola:hover {
-    background-color: #a5b5fc;
-}
-
-.pink:hover {
-    background-color: #ef7aa6;
-}
-
-.canary:hover {
-    background-color: #57E2E5;
-}
-
 button {
     border-radius: 50em;
     padding: 0.5em;
@@ -142,7 +110,7 @@ button:hover {
 #intro {
     height: 115vh;
     max-height: 70em;
-    padding: 6em 3em 0;
+    padding: 7em 3em 0;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 200% 200%;
     animation: gradient 10s ease infinite;
@@ -167,7 +135,7 @@ button:hover {
 
 #company {
     display: flex;
-    height: calc(95vh - 4em);
+    height: calc(95vh - 5em);
     max-height: 55em;
     align-items: center;
     justify-content: space-between;
@@ -184,6 +152,10 @@ button:hover {
     width: 21em;
     top: 38vh;
     right: 0;
+}
+
+#desc h4 {
+    line-height: 1.1em;
 }
 
 /* about */
@@ -277,6 +249,10 @@ button:hover {
     flex-direction: column;
     border-radius: 0.4em;
     padding: 0.5em;
+}
+
+.services-block:hover {
+    background-color: #cecece;
 }
 
 .services-block h3 {
