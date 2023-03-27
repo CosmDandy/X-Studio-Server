@@ -13,6 +13,10 @@ html, body, h1, h2, h3, h4, h5, h6, p, a, button, iframe {
     border: none;
 }
 
+img {
+    object-fit: cover;
+}
+
 audio {
     width: 30em;
     height: 2em;
