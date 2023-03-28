@@ -33,7 +33,6 @@ div, button, h1, h2, h3, a, p, :hover {
 
 button {
     -webkit-border-radius: 50em;
-    -khtml-border-radius: 50em;
     -moz-border-radius: 50em;
     border-radius: 50em;
     padding: 0.5em;
@@ -280,7 +279,6 @@ button:hover {
     /*height: fit-content;*/
     flex-direction: column;
     -webkit-border-radius: 0.4em;
-    -khtml-border-radius: 0.4em;
     -moz-border-radius: 0.4em;
     border-radius: 0.4em;
     padding: 0.5em;
