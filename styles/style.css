@@ -50,6 +50,16 @@ button:hover {
     position: relative;
 }
 
+@media screen and (max-width: 65em) {
+    #about-img {
+        display: none;
+    }
+
+    .about-desc {
+        width: 100% !important
+    }
+}
+
 #header {
     position: fixed;
     z-index: 100;
@@ -210,6 +220,7 @@ button:hover {
 }
 
 .about-desc {
+    margin: 0 1em;
     width: 25em;
 }
 
@@ -297,26 +308,6 @@ button:hover {
 
 .small-img {
     height: 100px;
-}
-
-.services-price {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 0.5em;
-    background-color: rgb(180 180 180 / 60%);
-    padding: 0 1em;
-}
-
-.services-price:hover {
-    background-color: #ffffff !important;
-}
-
-.services-block:hover .services-price {
-    background-color: rgb(255 255 255 / 85%);
-}
-
-.services-block:hover .big-img, .services-block:hover .medium-img {
-    outline: #ffffff 1px solid !important;
 }
 
 /* Price List */
