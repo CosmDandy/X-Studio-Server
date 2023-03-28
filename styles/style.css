@@ -5,6 +5,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     background-color: #ffffff;
+    scrollbar-width: thin;
 }
 
 html, body, h1, h2, h3, h4, h5, h6, p, a, button, iframe {
@@ -31,6 +32,9 @@ div, button, h1, h2, h3, a, p, :hover {
 }
 
 button {
+    -webkit-border-radius: 50em;
+    -khtml-border-radius: 50em;
+    -moz-border-radius: 50em;
     border-radius: 50em;
     padding: 0.5em;
     border: none;
@@ -275,6 +279,9 @@ button:hover {
     display: flex;
     /*height: fit-content;*/
     flex-direction: column;
+    -webkit-border-radius: 0.4em;
+    -khtml-border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
     border-radius: 0.4em;
     padding: 0.5em;
 }
