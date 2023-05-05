@@ -5,6 +5,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     background-color: #ffffff;
+    scrollbar-width: thin;
 }
 
 html, body, h1, h2, h3, h4, h5, h6, p, a, button, iframe {
@@ -31,6 +32,8 @@ div, button, h1, h2, h3, a, p, :hover {
 }
 
 button {
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
     border-radius: 50em;
     padding: 0.5em;
     border: none;
@@ -176,8 +179,8 @@ button:hover {
 }
 
 #desc {
-    width: 21em;
-    top: 38vh;
+    width: 23em;
+    top: 3vh;
     right: 0;
 }
 
@@ -275,6 +278,8 @@ button:hover {
     display: flex;
     /*height: fit-content;*/
     flex-direction: column;
+    -webkit-border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
     border-radius: 0.4em;
     padding: 0.5em;
 }
@@ -337,6 +342,53 @@ button:hover {
 
 .example-block {
     margin: 0 0 0 40vw;
+}
+
+/* Price */
+
+.pr {
+    background-color: #2d2d2d;
+    padding: 2em 0;
+}
+
+.pr-content-block {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5em 0;
+    border-bottom: solid rgba(196, 196, 196, 0.8) 0.1em;
+    align-items: center;
+    align-content: center;
+}
+
+.pr-content-h, .pr-content-d, .pr-content-p {
+    text-align: left;
+}
+
+.pr-content-d h3, .pr-content-p h3, .pr-content-h h3{
+    display: block;
+    font-size: 20px;
+    font-family: 'Gotham Bold', serif;
+    text-decoration: none;
+}
+
+.pr-content-d p, .pr-content-p p {
+    display: block;
+    font-size: 17px;
+    font-family: 'Gotham XLight', serif;
+    text-decoration: none;
+}
+
+.pr-content-h {
+    width: 15em;
+}
+
+.pr-content-d {
+    width: 15em;
+}
+
+.pr-content-p {
+    width: 20em;
 }
 
 /* Reviews */
@@ -436,7 +488,7 @@ button:hover {
 }
 
 #footer-social div {
-    width: 16em;
+    width: 14em;
     display: flex;
     justify-content: space-between;
 }
@@ -448,6 +500,10 @@ button:hover {
     padding-top: 0.5em;
     justify-content: space-between;
     width: 30em;
+}
+
+.contacts a:hover {
+    opacity: 0.7;
 }
 
 #footer-desc {
