@@ -1,0 +1,188 @@
+h1, h2, h3, h4, h5, h6, a, p {
+    color: white !important;
+    text-decoration: none;
+}
+
+h1, h3 {
+    font-family: 'Gotham Bold', serif;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    width: 100%;
+    font-family: 'Gotham Black', serif;
+    font-size: 3.5em;
+    line-height: 1em;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    padding: 2em 0 0.5em;
+}
+
+h3 {
+    font-size: 2em;
+    padding: 2em 0 0.5em;
+}
+
+h4 {
+    font-size: 1.3em;
+    padding: 2em 0 0.5em;
+}
+
+h5 {
+    font-size: 1.3em;
+}
+
+h4, h5, h6 {
+    font-family: 'Gotham Light', serif;
+}
+
+a, p {
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+#header a {
+    font-size: 1.3em;
+}
+
+a {
+    font-family: 'Gotham XLight', serif;
+    font-size: 1em;
+}
+
+p {
+    font-family: 'Gotham XLight', serif;
+    font-size: 1em;
+    padding: 1em 0;
+}
+
+/* Gotham */
+
+@font-face {
+    font-family: "Gotham Black";
+    src: url("../fonts/Gotham/GothaProBla.otf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("../fonts/Gotham/GothaProBol.otf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gotham Light";
+    src: url("../fonts/Gotham/GothaProMed.otf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gotham XLight";
+    src: url("../fonts/Gotham/GothaProReg.otf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gotham Thin";
+    src: url("../fonts/Gotham/GothaProLig.otf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background-color: #ffffff;
+    scrollbar-width: thin;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, a, button, iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+/*#intro {*/
+/*    position: relative;*/
+/*    background: linear-gradient(108deg, #03CCC9 0%, #FC354C 100%)*/
+/*}*/
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    min-width: 20em;
+}
+
+#menu {
+    position: relative;
+}
+
+#menu-logo {
+    margin: 0 0.6em;
+    width: 100%;
+    color: white;
+    font-size: 4.5em !important;
+    font-family: 'Gotham Bold', serif;
+    line-height: 1em;
+    height: 1em;
+    text-transform: uppercase;
+}
+
+#menu-price {
+    margin: 0 2em;
+}
+
+#menu-price button {
+    color: white;
+    border-color: white;
+    width: 6.5em;
+    height: 3em;
+    border-radius: 20px;
+}
+
+#menu-price button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: white;
+}
+
+#intro {
+    height: 115vh;
+    max-height: 70em;
+    padding: 19em 5em 0;
+    background: linear-gradient(to right, #fc354c, #03ccc9);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+}
+
+#grad {
+    margin-top: 8em;
+}
+
+body {
+    background-color: transparent !important;
+}
